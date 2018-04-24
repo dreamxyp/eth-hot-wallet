@@ -1,8 +1,8 @@
-# ETH-Hot-Wallet 
+# HUC-Hot-Wallet 
 
-## Ethereum wallet with ERC20 support / web wallet 
+## HappyUC wallet with ERC20 support / web wallet 
 
-![eth-hot-wallet ethereum wallet preview](https://paullaux.github.io/eth-hot-wallet/docs/images/eth-hot-wallet-ethereum.PNG)
+![eth-hot-wallet happyuc wallet preview](https://paullaux.github.io/eth-hot-wallet/docs/images/eth-hot-wallet-happyuc.PNG)
 
 https://eth-hot-wallet.com
 
@@ -13,7 +13,7 @@ https://eth-hot-wallet.com
 ### Core components
 
 - [ ] [LightWallet V3](https://github.com/ConsenSys/eth-lightwallet) 
-- [ ] [Web3.js](https://github.com/ethereum/web3.js/) Ethereum JavaScript API
+- [ ] [Webu.js](https://github.com/happyuc-project/webu.js/) HappyUC JavaScript API
 - [ ] [React-boilerplate](https://github.com/react-boilerplate/react-boilerplate) as a wrapper of React JS, Redux, Saga, Reselect, ImmutableJS and more
 - [ ] [Ant Design](https://github.com/ant-design/ant-design) React js components
 - [ ] [Webpack 3](https://github.com/webpack/webpack) - A bundler for javascript and friends.
@@ -30,15 +30,15 @@ https://eth-hot-wallet.com
 
 - [x] Encryption keys generated from seed and stored in the browser.
 - [x] Network selector including local and remote rpc 
-- [x] Eth balance auto converted to btc/usd/euro.
+- [x] Huc balance auto converted to btc/usd/euro.
 - [x] Responsive design for mobile support.
 
 
 #### ERC20 wallet and native token support
-Eth-hot-wallet supports erc20 tokens. From the user side, the tokens will have the same look and feel like Ether. 
+Huc-hot-wallet supports erc20 tokens. From the user side, the tokens will have the same look and feel like Huc. 
 To interact with contracts, we use 
 ```javascript
-web3.eth.contract(erc20Abi)
+webu.huc.contract(erc20Abi)
 ```
 Like all other network communication in the wallet, calls to erc20 contracts are done inside `app/containers/Header/saga.js`.
 ERC20 Abi can be imported using 
@@ -67,7 +67,7 @@ import { erc20Abi } from 'utils/contracts/abi';
 
 - Homepage container - all the actions related to keystore, including manipulation and usage.
 
-- Header container - all the activities related to network communication / web3 API.
+- Header container - all the activities related to network communication / webu API.
 
 - SendTo container - state and actions related to sendTo modal, actual checks and sending is happening in header container.
 
@@ -80,7 +80,7 @@ import { erc20Abi } from 'utils/contracts/abi';
 
 
 
-#### npm scripts for eth-hot wallet:
+#### npm scripts for huc-hot wallet:
 
 `npm run build:dll` to build webpack DLL required for development.
 

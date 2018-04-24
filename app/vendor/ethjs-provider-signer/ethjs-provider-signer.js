@@ -75,7 +75,7 @@ return /******/ (function(modules) { // webpackBootstrap
 'use strict';
 
 var HTTPProvider = __webpack_require__(1);
-var EthRPC = __webpack_require__(2);
+var HucRPC = __webpack_require__(2);
 
 module.exports = SignerProvider;
 
@@ -89,13 +89,13 @@ module.exports = SignerProvider;
  */
 function SignerProvider(path, options) {
   if (!(this instanceof SignerProvider)) {
-    throw new Error('[ethjs-provider-signer] the SignerProvider instance requires the "new" flag in order to function normally (e.g. `const eth = new Eth(new SignerProvider(...));`).');
+    throw new Error('[ethjs-provider-signer] the SignerProvider instance requires the "new" flag in order to function normally (e.g. `const huc = new Huc(new SignerProvider(...));`).');
   }
   if (typeof options !== 'object') {
     throw new Error('[ethjs-provider-signer] the SignerProvider requires an options object be provided with the \'privateKey\' property specified, you provided type ' + typeof options + '.');
   }
   if (typeof options.signTransaction !== 'function') {
-    throw new Error('[ethjs-provider-signer] the SignerProvider requires an options object be provided with the \'signTransaction\' property specified, you provided type ' + typeof options.privateKey + ' (e.g. \'const eth = new Eth(new SignerProvider("http://ropsten.infura.io", { privateKey: (account, cb) => cb(null, \'some private key\') }));\').');
+    throw new Error('[ethjs-provider-signer] the SignerProvider requires an options object be provided with the \'signTransaction\' property specified, you provided type ' + typeof options.privateKey + ' (e.g. \'const huc = new Huc(new SignerProvider("http://ropsten.infura.io", { privateKey: (account, cb) => cb(null, \'some private key\') }));\').');
   }
 
   var self = this;
@@ -104,7 +104,7 @@ function SignerProvider(path, options) {
   }, options);
   self.timeout = options.timeout || 0;
   self.provider = new self.options.provider(path, self.timeout); // eslint-disable-line
-  self.rpc = new EthRPC(self.provider);
+  self.rpc = new HucRPC(self.provider);
 }
 
 /**
@@ -118,7 +118,7 @@ function SignerProvider(path, options) {
 SignerProvider.prototype.sendAsync = function (payload, callback) {
   // eslint-disable-line
   var self = this;
-  if (payload.method === 'eth_accounts' && self.options.accounts) {
+  if (payload.method === 'huc_accounts' && self.options.accounts) {
     self.options.accounts(function (accountsError, accounts) {
       // create new output payload
       var inputPayload = Object.assign({}, {
@@ -129,16 +129,16 @@ SignerProvider.prototype.sendAsync = function (payload, callback) {
 
       callback(accountsError, inputPayload);
     });
-  } else if (payload.method === 'eth_sendTransaction') {
+  } else if (payload.method === 'huc_sendTransaction') {
     // get the nonce, if any
-    self.rpc.sendAsync({ method: 'eth_getTransactionCount', params: [payload.params[0].from, 'latest'] }, function (nonceError, nonce) {
+    self.rpc.sendAsync({ method: 'huc_getTransactionCount', params: [payload.params[0].from, 'latest'] }, function (nonceError, nonce) {
       // eslint-disable-line
       if (nonceError) {
         return callback(new Error('[ethjs-provider-signer] while getting nonce: ' + nonceError), null);
       }
 
       // get the gas price, if any
-      self.rpc.sendAsync({ method: 'eth_gasPrice' }, function (gasPriceError, gasPrice) {
+      self.rpc.sendAsync({ method: 'huc_gasPrice' }, function (gasPriceError, gasPrice) {
         // eslint-disable-line
         if (gasPriceError) {
           return callback(new Error('[ethjs-provider-signer] while getting gasPrice: ' + gasPriceError), null);
@@ -158,7 +158,7 @@ SignerProvider.prototype.sendAsync = function (payload, callback) {
             var outputPayload = Object.assign({}, {
               id: payload.id,
               jsonrpc: payload.jsonrpc,
-              method: 'eth_sendRawTransaction',
+              method: 'huc_sendRawTransaction',
               params: [signedHexPayload]
             });
 
@@ -208,7 +208,7 @@ function invalidResponseError(result, host) {
  */
 function HttpProvider(host, timeout) {
   if (!(this instanceof HttpProvider)) {
-    throw new Error('[ethjs-provider-http] the HttpProvider instance requires the "new" flag in order to function normally (e.g. `const eth = new Eth(new HttpProvider());`).');
+    throw new Error('[ethjs-provider-http] the HttpProvider instance requires the "new" flag in order to function normally (e.g. `const huc = new Huc(new HttpProvider());`).');
   }
   if (typeof host !== 'string') {
     throw new Error('[ethjs-provider-http] the HttpProvider instance requires that the host be specified (e.g. `new HttpProvider("http://localhost:8545")` or via service like infura `new HttpProvider("http://ropsten.infura.io")`)');
@@ -270,22 +270,22 @@ module.exports = HttpProvider;
 "use strict";
 'use strict';
 
-module.exports = EthRPC;
+module.exports = HucRPC;
 
 /**
- * Constructs the EthRPC instance
+ * Constructs the HucRPC instance
  *
- * @method EthRPC
- * @param {Object} cprovider the eth rpc provider web3 standard..
+ * @method HucRPC
+ * @param {Object} cprovider the huc rpc provider webu standard..
  * @param {Object} options the options, if any
- * @returns {Object} ethrpc instance
+ * @returns {Object} hucrpc instance
  */
-function EthRPC(cprovider, options) {
+function HucRPC(cprovider, options) {
   var self = this;
   var optionsObject = options || {};
 
-  if (!(this instanceof EthRPC)) {
-    throw new Error('[ethjs-rpc] the EthRPC object requires the "new" flag in order to function normally (i.e. `const eth = new EthRPC(provider);`).');
+  if (!(this instanceof HucRPC)) {
+    throw new Error('[ethjs-rpc] the HucRPC object requires the "new" flag in order to function normally (i.e. `const huc = new HucRPC(provider);`).');
   }
 
   self.options = Object.assign({
@@ -295,7 +295,7 @@ function EthRPC(cprovider, options) {
   self.idCounter = Math.floor(Math.random() * self.options.max);
   self.setProvider = function (provider) {
     if (typeof provider !== 'object') {
-      throw new Error('[ethjs-rpc] the EthRPC object requires that the first input \'provider\' must be an object, got \'' + typeof provider + '\' (i.e. \'const eth = new EthRPC(provider);\')');
+      throw new Error('[ethjs-rpc] the HucRPC object requires that the first input \'provider\' must be an object, got \'' + typeof provider + '\' (i.e. \'const huc = new HucRPC(provider);\')');
     }
 
     self.currentProvider = provider;
@@ -311,7 +311,7 @@ function EthRPC(cprovider, options) {
  * @param {Function} cb the async standard callback
  * @callback {Object|Array|Boolean|String} vary result instance output
  */
-EthRPC.prototype.sendAsync = function sendAsync(payload, cb) {
+HucRPC.prototype.sendAsync = function sendAsync(payload, cb) {
   var self = this;
   self.idCounter = self.idCounter % self.options.max;
   self.currentProvider.sendAsync(createPayload(payload, self.idCounter++), function (err, response) {

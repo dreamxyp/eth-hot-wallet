@@ -2345,19 +2345,19 @@
             "id": "./node_modules/eth-lightwallet/node_modules/tweetnacl/nacl-fast.js"
           },
           {
-            "name": "./node_modules/ethereum-common/params.json",
+            "name": "./node_modules/happyucjs-common/params.json",
             "size": 4683,
-            "id": "./node_modules/ethereum-common/params.json"
+            "id": "./node_modules/happyucjs-common/params.json"
           },
           {
-            "name": "./node_modules/ethereumjs-tx/es5/index.js",
+            "name": "./node_modules/happyucjs-tx/es5/index.js",
             "size": 8827,
-            "id": "./node_modules/ethereumjs-tx/es5/index.js"
+            "id": "./node_modules/happyucjs-tx/es5/index.js"
           },
           {
-            "name": "./node_modules/ethereumjs-util/index.js",
+            "name": "./node_modules/happyucjs-util/index.js",
             "size": 18054,
-            "id": "./node_modules/ethereumjs-util/index.js"
+            "id": "./node_modules/happyucjs-util/index.js"
           },
           {
             "name": "./node_modules/ethjs-util/lib/index.js",
@@ -3725,239 +3725,239 @@
             "id": "./node_modules/vm-browserify/index.js"
           },
           {
-            "name": "./node_modules/web3/index.js",
+            "name": "./node_modules/webu/index.js",
             "size": 193,
-            "id": "./node_modules/web3/index.js"
+            "id": "./node_modules/webu/index.js"
           },
           {
-            "name": "./node_modules/web3/lib/contracts/GlobalRegistrar.json",
+            "name": "./node_modules/webu/lib/contracts/GlobalRegistrar.json",
             "size": 2323,
-            "id": "./node_modules/web3/lib/contracts/GlobalRegistrar.json"
+            "id": "./node_modules/webu/lib/contracts/GlobalRegistrar.json"
           },
           {
-            "name": "./node_modules/web3/lib/contracts/ICAPRegistrar.json",
+            "name": "./node_modules/webu/lib/contracts/ICAPRegistrar.json",
             "size": 955,
-            "id": "./node_modules/web3/lib/contracts/ICAPRegistrar.json"
+            "id": "./node_modules/webu/lib/contracts/ICAPRegistrar.json"
           },
           {
-            "name": "./node_modules/web3/lib/contracts/SmartExchange.json",
+            "name": "./node_modules/webu/lib/contracts/SmartExchange.json",
             "size": 1391,
-            "id": "./node_modules/web3/lib/contracts/SmartExchange.json"
+            "id": "./node_modules/webu/lib/contracts/SmartExchange.json"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/address.js",
+            "name": "./node_modules/webu/lib/solidity/address.js",
             "size": 663,
-            "id": "./node_modules/web3/lib/solidity/address.js"
+            "id": "./node_modules/webu/lib/solidity/address.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/bool.js",
+            "name": "./node_modules/webu/lib/solidity/bool.js",
             "size": 618,
-            "id": "./node_modules/web3/lib/solidity/bool.js"
+            "id": "./node_modules/webu/lib/solidity/bool.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/bytes.js",
+            "name": "./node_modules/webu/lib/solidity/bytes.js",
             "size": 690,
-            "id": "./node_modules/web3/lib/solidity/bytes.js"
+            "id": "./node_modules/webu/lib/solidity/bytes.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/coder.js",
+            "name": "./node_modules/webu/lib/solidity/coder.js",
             "size": 7995,
-            "id": "./node_modules/web3/lib/solidity/coder.js"
+            "id": "./node_modules/webu/lib/solidity/coder.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/dynamicbytes.js",
+            "name": "./node_modules/webu/lib/solidity/dynamicbytes.js",
             "size": 612,
-            "id": "./node_modules/web3/lib/solidity/dynamicbytes.js"
+            "id": "./node_modules/webu/lib/solidity/dynamicbytes.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/formatters.js",
+            "name": "./node_modules/webu/lib/solidity/formatters.js",
             "size": 7567,
-            "id": "./node_modules/web3/lib/solidity/formatters.js"
+            "id": "./node_modules/webu/lib/solidity/formatters.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/int.js",
+            "name": "./node_modules/webu/lib/solidity/int.js",
             "size": 688,
-            "id": "./node_modules/web3/lib/solidity/int.js"
+            "id": "./node_modules/webu/lib/solidity/int.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/param.js",
+            "name": "./node_modules/webu/lib/solidity/param.js",
             "size": 4187,
-            "id": "./node_modules/web3/lib/solidity/param.js"
+            "id": "./node_modules/webu/lib/solidity/param.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/real.js",
+            "name": "./node_modules/webu/lib/solidity/real.js",
             "size": 709,
-            "id": "./node_modules/web3/lib/solidity/real.js"
+            "id": "./node_modules/webu/lib/solidity/real.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/string.js",
+            "name": "./node_modules/webu/lib/solidity/string.js",
             "size": 559,
-            "id": "./node_modules/web3/lib/solidity/string.js"
+            "id": "./node_modules/webu/lib/solidity/string.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/type.js",
+            "name": "./node_modules/webu/lib/solidity/type.js",
             "size": 7570,
-            "id": "./node_modules/web3/lib/solidity/type.js"
+            "id": "./node_modules/webu/lib/solidity/type.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/uint.js",
+            "name": "./node_modules/webu/lib/solidity/uint.js",
             "size": 710,
-            "id": "./node_modules/web3/lib/solidity/uint.js"
+            "id": "./node_modules/webu/lib/solidity/uint.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/ureal.js",
+            "name": "./node_modules/webu/lib/solidity/ureal.js",
             "size": 733,
-            "id": "./node_modules/web3/lib/solidity/ureal.js"
+            "id": "./node_modules/webu/lib/solidity/ureal.js"
           },
           {
-            "name": "./node_modules/web3/lib/utils/browser-xhr.js",
+            "name": "./node_modules/webu/lib/utils/browser-xhr.js",
             "size": 219,
-            "id": "./node_modules/web3/lib/utils/browser-xhr.js"
+            "id": "./node_modules/webu/lib/utils/browser-xhr.js"
           },
           {
-            "name": "./node_modules/web3/lib/utils/config.js",
+            "name": "./node_modules/webu/lib/utils/config.js",
             "size": 1663,
-            "id": "./node_modules/web3/lib/utils/config.js"
+            "id": "./node_modules/webu/lib/utils/config.js"
           },
           {
-            "name": "./node_modules/web3/lib/utils/sha3.js",
+            "name": "./node_modules/webu/lib/utils/sha3.js",
             "size": 1193,
-            "id": "./node_modules/web3/lib/utils/sha3.js"
+            "id": "./node_modules/webu/lib/utils/sha3.js"
           },
           {
-            "name": "./node_modules/web3/lib/utils/utils.js",
+            "name": "./node_modules/webu/lib/utils/utils.js",
             "size": 16779,
-            "id": "./node_modules/web3/lib/utils/utils.js"
+            "id": "./node_modules/webu/lib/utils/utils.js"
           },
           {
-            "name": "./node_modules/web3/lib/version.json",
+            "name": "./node_modules/webu/lib/version.json",
             "size": 37,
-            "id": "./node_modules/web3/lib/version.json"
+            "id": "./node_modules/webu/lib/version.json"
           },
           {
-            "name": "./node_modules/web3/lib/web3.js",
+            "name": "./node_modules/webu/lib/webu.js",
             "size": 4533,
-            "id": "./node_modules/web3/lib/web3.js"
+            "id": "./node_modules/webu/lib/webu.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/allevents.js",
+            "name": "./node_modules/webu/lib/webu/allevents.js",
             "size": 2716,
-            "id": "./node_modules/web3/lib/web3/allevents.js"
+            "id": "./node_modules/webu/lib/webu/allevents.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/batch.js",
+            "name": "./node_modules/webu/lib/webu/batch.js",
             "size": 1960,
-            "id": "./node_modules/web3/lib/web3/batch.js"
+            "id": "./node_modules/webu/lib/webu/batch.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/contract.js",
+            "name": "./node_modules/webu/lib/webu/contract.js",
             "size": 9335,
-            "id": "./node_modules/web3/lib/web3/contract.js"
+            "id": "./node_modules/webu/lib/webu/contract.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/errors.js",
+            "name": "./node_modules/webu/lib/webu/errors.js",
             "size": 1665,
-            "id": "./node_modules/web3/lib/web3/errors.js"
+            "id": "./node_modules/webu/lib/webu/errors.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/event.js",
+            "name": "./node_modules/webu/lib/webu/event.js",
             "size": 5857,
-            "id": "./node_modules/web3/lib/web3/event.js"
+            "id": "./node_modules/webu/lib/webu/event.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/extend.js",
+            "name": "./node_modules/webu/lib/webu/extend.js",
             "size": 1319,
-            "id": "./node_modules/web3/lib/web3/extend.js"
+            "id": "./node_modules/webu/lib/webu/extend.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/filter.js",
+            "name": "./node_modules/webu/lib/webu/filter.js",
             "size": 7345,
-            "id": "./node_modules/web3/lib/web3/filter.js"
+            "id": "./node_modules/webu/lib/webu/filter.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/formatters.js",
+            "name": "./node_modules/webu/lib/webu/formatters.js",
             "size": 9003,
-            "id": "./node_modules/web3/lib/web3/formatters.js"
+            "id": "./node_modules/webu/lib/webu/formatters.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/function.js",
+            "name": "./node_modules/webu/lib/webu/function.js",
             "size": 8053,
-            "id": "./node_modules/web3/lib/web3/function.js"
+            "id": "./node_modules/webu/lib/webu/function.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/httpprovider.js",
+            "name": "./node_modules/webu/lib/webu/httpprovider.js",
             "size": 4002,
-            "id": "./node_modules/web3/lib/web3/httpprovider.js"
+            "id": "./node_modules/webu/lib/webu/httpprovider.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/iban.js",
+            "name": "./node_modules/webu/lib/webu/iban.js",
             "size": 6013,
-            "id": "./node_modules/web3/lib/web3/iban.js"
+            "id": "./node_modules/webu/lib/webu/iban.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/ipcprovider.js",
+            "name": "./node_modules/webu/lib/webu/ipcprovider.js",
             "size": 5509,
-            "id": "./node_modules/web3/lib/web3/ipcprovider.js"
+            "id": "./node_modules/webu/lib/webu/ipcprovider.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/jsonrpc.js",
+            "name": "./node_modules/webu/lib/webu/jsonrpc.js",
             "size": 2522,
-            "id": "./node_modules/web3/lib/web3/jsonrpc.js"
+            "id": "./node_modules/webu/lib/webu/jsonrpc.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/method.js",
+            "name": "./node_modules/webu/lib/webu/method.js",
             "size": 4522,
-            "id": "./node_modules/web3/lib/web3/method.js"
+            "id": "./node_modules/webu/lib/webu/method.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/methods/db.js",
+            "name": "./node_modules/webu/lib/webu/methods/db.js",
             "size": 1640,
-            "id": "./node_modules/web3/lib/web3/methods/db.js"
+            "id": "./node_modules/webu/lib/webu/methods/db.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/methods/eth.js",
+            "name": "./node_modules/webu/lib/webu/methods/huc.js",
             "size": 10133,
-            "id": "./node_modules/web3/lib/web3/methods/eth.js"
+            "id": "./node_modules/webu/lib/webu/methods/huc.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/methods/net.js",
+            "name": "./node_modules/webu/lib/webu/methods/net.js",
             "size": 1498,
-            "id": "./node_modules/web3/lib/web3/methods/net.js"
+            "id": "./node_modules/webu/lib/webu/methods/net.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/methods/personal.js",
+            "name": "./node_modules/webu/lib/webu/methods/personal.js",
             "size": 2889,
-            "id": "./node_modules/web3/lib/web3/methods/personal.js"
+            "id": "./node_modules/webu/lib/webu/methods/personal.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/methods/shh.js",
+            "name": "./node_modules/webu/lib/webu/methods/shh.js",
             "size": 3819,
-            "id": "./node_modules/web3/lib/web3/methods/shh.js"
+            "id": "./node_modules/webu/lib/webu/methods/shh.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/methods/swarm.js",
+            "name": "./node_modules/webu/lib/webu/methods/swarm.js",
             "size": 3336,
-            "id": "./node_modules/web3/lib/web3/methods/swarm.js"
+            "id": "./node_modules/webu/lib/webu/methods/swarm.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/methods/watches.js",
+            "name": "./node_modules/webu/lib/webu/methods/watches.js",
             "size": 2648,
-            "id": "./node_modules/web3/lib/web3/methods/watches.js"
+            "id": "./node_modules/webu/lib/webu/methods/watches.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/namereg.js",
+            "name": "./node_modules/webu/lib/webu/namereg.js",
             "size": 1271,
-            "id": "./node_modules/web3/lib/web3/namereg.js"
+            "id": "./node_modules/webu/lib/webu/namereg.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/property.js",
+            "name": "./node_modules/webu/lib/webu/property.js",
             "size": 3875,
-            "id": "./node_modules/web3/lib/web3/property.js"
+            "id": "./node_modules/webu/lib/webu/property.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/requestmanager.js",
+            "name": "./node_modules/webu/lib/webu/requestmanager.js",
             "size": 6834,
-            "id": "./node_modules/web3/lib/web3/requestmanager.js"
+            "id": "./node_modules/webu/lib/webu/requestmanager.js"
           },
           {
             "name": "util (ignored)",
@@ -3965,19 +3965,19 @@
             "id": 1
           },
           {
-            "name": "./node_modules/web3/lib/web3/settings.js",
+            "name": "./node_modules/webu/lib/webu/settings.js",
             "size": 134,
-            "id": "./node_modules/web3/lib/web3/settings.js"
+            "id": "./node_modules/webu/lib/webu/settings.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/syncing.js",
+            "name": "./node_modules/webu/lib/webu/syncing.js",
             "size": 2730,
-            "id": "./node_modules/web3/lib/web3/syncing.js"
+            "id": "./node_modules/webu/lib/webu/syncing.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/transfer.js",
+            "name": "./node_modules/webu/lib/webu/transfer.js",
             "size": 2649,
-            "id": "./node_modules/web3/lib/web3/transfer.js"
+            "id": "./node_modules/webu/lib/webu/transfer.js"
           },
           {
             "name": "(webpack)/node_modules/timers-browserify/main.js",
@@ -9745,19 +9745,19 @@
             "id": "./node_modules/eth-lightwallet/node_modules/tweetnacl/nacl-fast.js"
           },
           {
-            "name": "./node_modules/ethereum-common/params.json",
+            "name": "./node_modules/happyucjs-common/params.json",
             "size": 4683,
-            "id": "./node_modules/ethereum-common/params.json"
+            "id": "./node_modules/happyucjs-common/params.json"
           },
           {
-            "name": "./node_modules/ethereumjs-tx/es5/index.js",
+            "name": "./node_modules/happyucjs-tx/es5/index.js",
             "size": 8827,
-            "id": "./node_modules/ethereumjs-tx/es5/index.js"
+            "id": "./node_modules/happyucjs-tx/es5/index.js"
           },
           {
-            "name": "./node_modules/ethereumjs-util/index.js",
+            "name": "./node_modules/happyucjs-util/index.js",
             "size": 18054,
-            "id": "./node_modules/ethereumjs-util/index.js"
+            "id": "./node_modules/happyucjs-util/index.js"
           },
           {
             "name": "./node_modules/ethjs-util/lib/index.js",
@@ -11160,239 +11160,239 @@
             "id": "./node_modules/vm-browserify/index.js"
           },
           {
-            "name": "./node_modules/web3/index.js",
+            "name": "./node_modules/webu/index.js",
             "size": 193,
-            "id": "./node_modules/web3/index.js"
+            "id": "./node_modules/webu/index.js"
           },
           {
-            "name": "./node_modules/web3/lib/contracts/GlobalRegistrar.json",
+            "name": "./node_modules/webu/lib/contracts/GlobalRegistrar.json",
             "size": 2323,
-            "id": "./node_modules/web3/lib/contracts/GlobalRegistrar.json"
+            "id": "./node_modules/webu/lib/contracts/GlobalRegistrar.json"
           },
           {
-            "name": "./node_modules/web3/lib/contracts/ICAPRegistrar.json",
+            "name": "./node_modules/webu/lib/contracts/ICAPRegistrar.json",
             "size": 955,
-            "id": "./node_modules/web3/lib/contracts/ICAPRegistrar.json"
+            "id": "./node_modules/webu/lib/contracts/ICAPRegistrar.json"
           },
           {
-            "name": "./node_modules/web3/lib/contracts/SmartExchange.json",
+            "name": "./node_modules/webu/lib/contracts/SmartExchange.json",
             "size": 1391,
-            "id": "./node_modules/web3/lib/contracts/SmartExchange.json"
+            "id": "./node_modules/webu/lib/contracts/SmartExchange.json"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/address.js",
+            "name": "./node_modules/webu/lib/solidity/address.js",
             "size": 663,
-            "id": "./node_modules/web3/lib/solidity/address.js"
+            "id": "./node_modules/webu/lib/solidity/address.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/bool.js",
+            "name": "./node_modules/webu/lib/solidity/bool.js",
             "size": 618,
-            "id": "./node_modules/web3/lib/solidity/bool.js"
+            "id": "./node_modules/webu/lib/solidity/bool.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/bytes.js",
+            "name": "./node_modules/webu/lib/solidity/bytes.js",
             "size": 690,
-            "id": "./node_modules/web3/lib/solidity/bytes.js"
+            "id": "./node_modules/webu/lib/solidity/bytes.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/coder.js",
+            "name": "./node_modules/webu/lib/solidity/coder.js",
             "size": 7995,
-            "id": "./node_modules/web3/lib/solidity/coder.js"
+            "id": "./node_modules/webu/lib/solidity/coder.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/dynamicbytes.js",
+            "name": "./node_modules/webu/lib/solidity/dynamicbytes.js",
             "size": 612,
-            "id": "./node_modules/web3/lib/solidity/dynamicbytes.js"
+            "id": "./node_modules/webu/lib/solidity/dynamicbytes.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/formatters.js",
+            "name": "./node_modules/webu/lib/solidity/formatters.js",
             "size": 7567,
-            "id": "./node_modules/web3/lib/solidity/formatters.js"
+            "id": "./node_modules/webu/lib/solidity/formatters.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/int.js",
+            "name": "./node_modules/webu/lib/solidity/int.js",
             "size": 688,
-            "id": "./node_modules/web3/lib/solidity/int.js"
+            "id": "./node_modules/webu/lib/solidity/int.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/param.js",
+            "name": "./node_modules/webu/lib/solidity/param.js",
             "size": 4187,
-            "id": "./node_modules/web3/lib/solidity/param.js"
+            "id": "./node_modules/webu/lib/solidity/param.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/real.js",
+            "name": "./node_modules/webu/lib/solidity/real.js",
             "size": 709,
-            "id": "./node_modules/web3/lib/solidity/real.js"
+            "id": "./node_modules/webu/lib/solidity/real.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/string.js",
+            "name": "./node_modules/webu/lib/solidity/string.js",
             "size": 559,
-            "id": "./node_modules/web3/lib/solidity/string.js"
+            "id": "./node_modules/webu/lib/solidity/string.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/type.js",
+            "name": "./node_modules/webu/lib/solidity/type.js",
             "size": 7570,
-            "id": "./node_modules/web3/lib/solidity/type.js"
+            "id": "./node_modules/webu/lib/solidity/type.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/uint.js",
+            "name": "./node_modules/webu/lib/solidity/uint.js",
             "size": 710,
-            "id": "./node_modules/web3/lib/solidity/uint.js"
+            "id": "./node_modules/webu/lib/solidity/uint.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/ureal.js",
+            "name": "./node_modules/webu/lib/solidity/ureal.js",
             "size": 733,
-            "id": "./node_modules/web3/lib/solidity/ureal.js"
+            "id": "./node_modules/webu/lib/solidity/ureal.js"
           },
           {
-            "name": "./node_modules/web3/lib/utils/browser-xhr.js",
+            "name": "./node_modules/webu/lib/utils/browser-xhr.js",
             "size": 219,
-            "id": "./node_modules/web3/lib/utils/browser-xhr.js"
+            "id": "./node_modules/webu/lib/utils/browser-xhr.js"
           },
           {
-            "name": "./node_modules/web3/lib/utils/config.js",
+            "name": "./node_modules/webu/lib/utils/config.js",
             "size": 1663,
-            "id": "./node_modules/web3/lib/utils/config.js"
+            "id": "./node_modules/webu/lib/utils/config.js"
           },
           {
-            "name": "./node_modules/web3/lib/utils/sha3.js",
+            "name": "./node_modules/webu/lib/utils/sha3.js",
             "size": 1193,
-            "id": "./node_modules/web3/lib/utils/sha3.js"
+            "id": "./node_modules/webu/lib/utils/sha3.js"
           },
           {
-            "name": "./node_modules/web3/lib/utils/utils.js",
+            "name": "./node_modules/webu/lib/utils/utils.js",
             "size": 16779,
-            "id": "./node_modules/web3/lib/utils/utils.js"
+            "id": "./node_modules/webu/lib/utils/utils.js"
           },
           {
-            "name": "./node_modules/web3/lib/version.json",
+            "name": "./node_modules/webu/lib/version.json",
             "size": 37,
-            "id": "./node_modules/web3/lib/version.json"
+            "id": "./node_modules/webu/lib/version.json"
           },
           {
-            "name": "./node_modules/web3/lib/web3.js",
+            "name": "./node_modules/webu/lib/webu.js",
             "size": 4533,
-            "id": "./node_modules/web3/lib/web3.js"
+            "id": "./node_modules/webu/lib/webu.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/allevents.js",
+            "name": "./node_modules/webu/lib/webu/allevents.js",
             "size": 2716,
-            "id": "./node_modules/web3/lib/web3/allevents.js"
+            "id": "./node_modules/webu/lib/webu/allevents.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/batch.js",
+            "name": "./node_modules/webu/lib/webu/batch.js",
             "size": 1960,
-            "id": "./node_modules/web3/lib/web3/batch.js"
+            "id": "./node_modules/webu/lib/webu/batch.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/contract.js",
+            "name": "./node_modules/webu/lib/webu/contract.js",
             "size": 9335,
-            "id": "./node_modules/web3/lib/web3/contract.js"
+            "id": "./node_modules/webu/lib/webu/contract.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/errors.js",
+            "name": "./node_modules/webu/lib/webu/errors.js",
             "size": 1665,
-            "id": "./node_modules/web3/lib/web3/errors.js"
+            "id": "./node_modules/webu/lib/webu/errors.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/event.js",
+            "name": "./node_modules/webu/lib/webu/event.js",
             "size": 5857,
-            "id": "./node_modules/web3/lib/web3/event.js"
+            "id": "./node_modules/webu/lib/webu/event.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/extend.js",
+            "name": "./node_modules/webu/lib/webu/extend.js",
             "size": 1319,
-            "id": "./node_modules/web3/lib/web3/extend.js"
+            "id": "./node_modules/webu/lib/webu/extend.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/filter.js",
+            "name": "./node_modules/webu/lib/webu/filter.js",
             "size": 7345,
-            "id": "./node_modules/web3/lib/web3/filter.js"
+            "id": "./node_modules/webu/lib/webu/filter.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/formatters.js",
+            "name": "./node_modules/webu/lib/webu/formatters.js",
             "size": 9003,
-            "id": "./node_modules/web3/lib/web3/formatters.js"
+            "id": "./node_modules/webu/lib/webu/formatters.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/function.js",
+            "name": "./node_modules/webu/lib/webu/function.js",
             "size": 8053,
-            "id": "./node_modules/web3/lib/web3/function.js"
+            "id": "./node_modules/webu/lib/webu/function.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/httpprovider.js",
+            "name": "./node_modules/webu/lib/webu/httpprovider.js",
             "size": 4002,
-            "id": "./node_modules/web3/lib/web3/httpprovider.js"
+            "id": "./node_modules/webu/lib/webu/httpprovider.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/iban.js",
+            "name": "./node_modules/webu/lib/webu/iban.js",
             "size": 6013,
-            "id": "./node_modules/web3/lib/web3/iban.js"
+            "id": "./node_modules/webu/lib/webu/iban.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/ipcprovider.js",
+            "name": "./node_modules/webu/lib/webu/ipcprovider.js",
             "size": 5509,
-            "id": "./node_modules/web3/lib/web3/ipcprovider.js"
+            "id": "./node_modules/webu/lib/webu/ipcprovider.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/jsonrpc.js",
+            "name": "./node_modules/webu/lib/webu/jsonrpc.js",
             "size": 2522,
-            "id": "./node_modules/web3/lib/web3/jsonrpc.js"
+            "id": "./node_modules/webu/lib/webu/jsonrpc.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/method.js",
+            "name": "./node_modules/webu/lib/webu/method.js",
             "size": 4522,
-            "id": "./node_modules/web3/lib/web3/method.js"
+            "id": "./node_modules/webu/lib/webu/method.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/methods/db.js",
+            "name": "./node_modules/webu/lib/webu/methods/db.js",
             "size": 1640,
-            "id": "./node_modules/web3/lib/web3/methods/db.js"
+            "id": "./node_modules/webu/lib/webu/methods/db.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/methods/eth.js",
+            "name": "./node_modules/webu/lib/webu/methods/huc.js",
             "size": 10133,
-            "id": "./node_modules/web3/lib/web3/methods/eth.js"
+            "id": "./node_modules/webu/lib/webu/methods/huc.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/methods/net.js",
+            "name": "./node_modules/webu/lib/webu/methods/net.js",
             "size": 1498,
-            "id": "./node_modules/web3/lib/web3/methods/net.js"
+            "id": "./node_modules/webu/lib/webu/methods/net.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/methods/personal.js",
+            "name": "./node_modules/webu/lib/webu/methods/personal.js",
             "size": 2889,
-            "id": "./node_modules/web3/lib/web3/methods/personal.js"
+            "id": "./node_modules/webu/lib/webu/methods/personal.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/methods/shh.js",
+            "name": "./node_modules/webu/lib/webu/methods/shh.js",
             "size": 3819,
-            "id": "./node_modules/web3/lib/web3/methods/shh.js"
+            "id": "./node_modules/webu/lib/webu/methods/shh.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/methods/swarm.js",
+            "name": "./node_modules/webu/lib/webu/methods/swarm.js",
             "size": 3336,
-            "id": "./node_modules/web3/lib/web3/methods/swarm.js"
+            "id": "./node_modules/webu/lib/webu/methods/swarm.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/methods/watches.js",
+            "name": "./node_modules/webu/lib/webu/methods/watches.js",
             "size": 2648,
-            "id": "./node_modules/web3/lib/web3/methods/watches.js"
+            "id": "./node_modules/webu/lib/webu/methods/watches.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/namereg.js",
+            "name": "./node_modules/webu/lib/webu/namereg.js",
             "size": 1271,
-            "id": "./node_modules/web3/lib/web3/namereg.js"
+            "id": "./node_modules/webu/lib/webu/namereg.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/property.js",
+            "name": "./node_modules/webu/lib/webu/property.js",
             "size": 3875,
-            "id": "./node_modules/web3/lib/web3/property.js"
+            "id": "./node_modules/webu/lib/webu/property.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/requestmanager.js",
+            "name": "./node_modules/webu/lib/webu/requestmanager.js",
             "size": 6834,
-            "id": "./node_modules/web3/lib/web3/requestmanager.js"
+            "id": "./node_modules/webu/lib/webu/requestmanager.js"
           },
           {
             "name": "util (ignored)",
@@ -11415,19 +11415,19 @@
             "id": 4
           },
           {
-            "name": "./node_modules/web3/lib/web3/settings.js",
+            "name": "./node_modules/webu/lib/webu/settings.js",
             "size": 134,
-            "id": "./node_modules/web3/lib/web3/settings.js"
+            "id": "./node_modules/webu/lib/webu/settings.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/syncing.js",
+            "name": "./node_modules/webu/lib/webu/syncing.js",
             "size": 2730,
-            "id": "./node_modules/web3/lib/web3/syncing.js"
+            "id": "./node_modules/webu/lib/webu/syncing.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/transfer.js",
+            "name": "./node_modules/webu/lib/webu/transfer.js",
             "size": 2649,
-            "id": "./node_modules/web3/lib/web3/transfer.js"
+            "id": "./node_modules/webu/lib/webu/transfer.js"
           },
           {
             "name": "(webpack)/node_modules/timers-browserify/main.js",
@@ -14972,7 +14972,7 @@
         "size": 1657
       },
       {
-        "name": "token-icons/eth.png",
+        "name": "token-icons/huc.png",
         "chunks": [],
         "size": 1441
       },
@@ -16951,99 +16951,99 @@
             "id": "./node_modules/eth-lightwallet/node_modules/tweetnacl/nacl-fast.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/address.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/address.js",
             "size": 663,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/address.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/address.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/bool.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/bool.js",
             "size": 618,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/bool.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/bool.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/bytes.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/bytes.js",
             "size": 690,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/bytes.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/bytes.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/coder.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/coder.js",
             "size": 7995,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/coder.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/coder.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/dynamicbytes.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/dynamicbytes.js",
             "size": 612,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/dynamicbytes.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/dynamicbytes.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/formatters.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/formatters.js",
             "size": 7567,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/formatters.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/formatters.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/int.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/int.js",
             "size": 688,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/int.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/int.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/param.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/param.js",
             "size": 4187,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/param.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/param.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/real.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/real.js",
             "size": 709,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/real.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/real.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/string.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/string.js",
             "size": 559,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/string.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/string.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/type.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/type.js",
             "size": 7570,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/type.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/type.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/uint.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/uint.js",
             "size": 710,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/uint.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/uint.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/ureal.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/ureal.js",
             "size": 733,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/ureal.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/ureal.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/utils/config.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/utils/config.js",
             "size": 1663,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/utils/config.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/utils/config.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/utils/sha3.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/utils/sha3.js",
             "size": 1193,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/utils/sha3.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/utils/sha3.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/utils/utils.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/utils/utils.js",
             "size": 16779,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/utils/utils.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/utils/utils.js"
           },
           {
-            "name": "./node_modules/ethereum-common/params.json",
+            "name": "./node_modules/happyucjs-common/params.json",
             "size": 4683,
-            "id": "./node_modules/ethereum-common/params.json"
+            "id": "./node_modules/happyucjs-common/params.json"
           },
           {
-            "name": "./node_modules/ethereumjs-tx/es5/index.js",
+            "name": "./node_modules/happyucjs-tx/es5/index.js",
             "size": 8827,
-            "id": "./node_modules/ethereumjs-tx/es5/index.js"
+            "id": "./node_modules/happyucjs-tx/es5/index.js"
           },
           {
-            "name": "./node_modules/ethereumjs-util/index.js",
+            "name": "./node_modules/happyucjs-util/index.js",
             "size": 18054,
-            "id": "./node_modules/ethereumjs-util/index.js"
+            "id": "./node_modules/happyucjs-util/index.js"
           },
           {
             "name": "./node_modules/ethjs-util/lib/index.js",
@@ -18351,189 +18351,189 @@
             "id": "./node_modules/vm-browserify/index.js"
           },
           {
-            "name": "./node_modules/web3/index.js",
+            "name": "./node_modules/webu/index.js",
             "size": 193,
-            "id": "./node_modules/web3/index.js"
+            "id": "./node_modules/webu/index.js"
           },
           {
-            "name": "./node_modules/web3/lib/contracts/GlobalRegistrar.json",
+            "name": "./node_modules/webu/lib/contracts/GlobalRegistrar.json",
             "size": 2323,
-            "id": "./node_modules/web3/lib/contracts/GlobalRegistrar.json"
+            "id": "./node_modules/webu/lib/contracts/GlobalRegistrar.json"
           },
           {
-            "name": "./node_modules/web3/lib/contracts/ICAPRegistrar.json",
+            "name": "./node_modules/webu/lib/contracts/ICAPRegistrar.json",
             "size": 955,
-            "id": "./node_modules/web3/lib/contracts/ICAPRegistrar.json"
+            "id": "./node_modules/webu/lib/contracts/ICAPRegistrar.json"
           },
           {
-            "name": "./node_modules/web3/lib/contracts/SmartExchange.json",
+            "name": "./node_modules/webu/lib/contracts/SmartExchange.json",
             "size": 1391,
-            "id": "./node_modules/web3/lib/contracts/SmartExchange.json"
+            "id": "./node_modules/webu/lib/contracts/SmartExchange.json"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/address.js",
+            "name": "./node_modules/webu/lib/solidity/address.js",
             "size": 663,
-            "id": "./node_modules/web3/lib/solidity/address.js"
+            "id": "./node_modules/webu/lib/solidity/address.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/bool.js",
+            "name": "./node_modules/webu/lib/solidity/bool.js",
             "size": 618,
-            "id": "./node_modules/web3/lib/solidity/bool.js"
+            "id": "./node_modules/webu/lib/solidity/bool.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/bytes.js",
+            "name": "./node_modules/webu/lib/solidity/bytes.js",
             "size": 690,
-            "id": "./node_modules/web3/lib/solidity/bytes.js"
+            "id": "./node_modules/webu/lib/solidity/bytes.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/coder.js",
+            "name": "./node_modules/webu/lib/solidity/coder.js",
             "size": 7995,
-            "id": "./node_modules/web3/lib/solidity/coder.js"
+            "id": "./node_modules/webu/lib/solidity/coder.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/dynamicbytes.js",
+            "name": "./node_modules/webu/lib/solidity/dynamicbytes.js",
             "size": 612,
-            "id": "./node_modules/web3/lib/solidity/dynamicbytes.js"
+            "id": "./node_modules/webu/lib/solidity/dynamicbytes.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/formatters.js",
+            "name": "./node_modules/webu/lib/solidity/formatters.js",
             "size": 7567,
-            "id": "./node_modules/web3/lib/solidity/formatters.js"
+            "id": "./node_modules/webu/lib/solidity/formatters.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/int.js",
+            "name": "./node_modules/webu/lib/solidity/int.js",
             "size": 688,
-            "id": "./node_modules/web3/lib/solidity/int.js"
+            "id": "./node_modules/webu/lib/solidity/int.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/param.js",
+            "name": "./node_modules/webu/lib/solidity/param.js",
             "size": 4187,
-            "id": "./node_modules/web3/lib/solidity/param.js"
+            "id": "./node_modules/webu/lib/solidity/param.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/real.js",
+            "name": "./node_modules/webu/lib/solidity/real.js",
             "size": 709,
-            "id": "./node_modules/web3/lib/solidity/real.js"
+            "id": "./node_modules/webu/lib/solidity/real.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/string.js",
+            "name": "./node_modules/webu/lib/solidity/string.js",
             "size": 559,
-            "id": "./node_modules/web3/lib/solidity/string.js"
+            "id": "./node_modules/webu/lib/solidity/string.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/type.js",
+            "name": "./node_modules/webu/lib/solidity/type.js",
             "size": 7570,
-            "id": "./node_modules/web3/lib/solidity/type.js"
+            "id": "./node_modules/webu/lib/solidity/type.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/uint.js",
+            "name": "./node_modules/webu/lib/solidity/uint.js",
             "size": 710,
-            "id": "./node_modules/web3/lib/solidity/uint.js"
+            "id": "./node_modules/webu/lib/solidity/uint.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/ureal.js",
+            "name": "./node_modules/webu/lib/solidity/ureal.js",
             "size": 733,
-            "id": "./node_modules/web3/lib/solidity/ureal.js"
+            "id": "./node_modules/webu/lib/solidity/ureal.js"
           },
           {
-            "name": "./node_modules/web3/lib/utils/browser-xhr.js",
+            "name": "./node_modules/webu/lib/utils/browser-xhr.js",
             "size": 219,
-            "id": "./node_modules/web3/lib/utils/browser-xhr.js"
+            "id": "./node_modules/webu/lib/utils/browser-xhr.js"
           },
           {
-            "name": "./node_modules/web3/lib/utils/config.js",
+            "name": "./node_modules/webu/lib/utils/config.js",
             "size": 1663,
-            "id": "./node_modules/web3/lib/utils/config.js"
+            "id": "./node_modules/webu/lib/utils/config.js"
           },
           {
-            "name": "./node_modules/web3/lib/utils/sha3.js",
+            "name": "./node_modules/webu/lib/utils/sha3.js",
             "size": 1193,
-            "id": "./node_modules/web3/lib/utils/sha3.js"
+            "id": "./node_modules/webu/lib/utils/sha3.js"
           },
           {
-            "name": "./node_modules/web3/lib/utils/utils.js",
+            "name": "./node_modules/webu/lib/utils/utils.js",
             "size": 16727,
-            "id": "./node_modules/web3/lib/utils/utils.js"
+            "id": "./node_modules/webu/lib/utils/utils.js"
           },
           {
-            "name": "./node_modules/web3/lib/version.json",
+            "name": "./node_modules/webu/lib/version.json",
             "size": 37,
-            "id": "./node_modules/web3/lib/version.json"
+            "id": "./node_modules/webu/lib/version.json"
           },
           {
-            "name": "./node_modules/web3/lib/web3.js",
+            "name": "./node_modules/webu/lib/webu.js",
             "size": 4533,
-            "id": "./node_modules/web3/lib/web3.js"
+            "id": "./node_modules/webu/lib/webu.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/allevents.js",
+            "name": "./node_modules/webu/lib/webu/allevents.js",
             "size": 2716,
-            "id": "./node_modules/web3/lib/web3/allevents.js"
+            "id": "./node_modules/webu/lib/webu/allevents.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/batch.js",
+            "name": "./node_modules/webu/lib/webu/batch.js",
             "size": 1960,
-            "id": "./node_modules/web3/lib/web3/batch.js"
+            "id": "./node_modules/webu/lib/webu/batch.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/contract.js",
+            "name": "./node_modules/webu/lib/webu/contract.js",
             "size": 9335,
-            "id": "./node_modules/web3/lib/web3/contract.js"
+            "id": "./node_modules/webu/lib/webu/contract.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/errors.js",
+            "name": "./node_modules/webu/lib/webu/errors.js",
             "size": 1665,
-            "id": "./node_modules/web3/lib/web3/errors.js"
+            "id": "./node_modules/webu/lib/webu/errors.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/event.js",
+            "name": "./node_modules/webu/lib/webu/event.js",
             "size": 5857,
-            "id": "./node_modules/web3/lib/web3/event.js"
+            "id": "./node_modules/webu/lib/webu/event.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/extend.js",
+            "name": "./node_modules/webu/lib/webu/extend.js",
             "size": 1319,
-            "id": "./node_modules/web3/lib/web3/extend.js"
+            "id": "./node_modules/webu/lib/webu/extend.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/filter.js",
+            "name": "./node_modules/webu/lib/webu/filter.js",
             "size": 7345,
-            "id": "./node_modules/web3/lib/web3/filter.js"
+            "id": "./node_modules/webu/lib/webu/filter.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/formatters.js",
+            "name": "./node_modules/webu/lib/webu/formatters.js",
             "size": 9003,
-            "id": "./node_modules/web3/lib/web3/formatters.js"
+            "id": "./node_modules/webu/lib/webu/formatters.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/function.js",
+            "name": "./node_modules/webu/lib/webu/function.js",
             "size": 8053,
-            "id": "./node_modules/web3/lib/web3/function.js"
+            "id": "./node_modules/webu/lib/webu/function.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/httpprovider.js",
+            "name": "./node_modules/webu/lib/webu/httpprovider.js",
             "size": 4181,
-            "id": "./node_modules/web3/lib/web3/httpprovider.js"
+            "id": "./node_modules/webu/lib/webu/httpprovider.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/iban.js",
+            "name": "./node_modules/webu/lib/webu/iban.js",
             "size": 6013,
-            "id": "./node_modules/web3/lib/web3/iban.js"
+            "id": "./node_modules/webu/lib/webu/iban.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/ipcprovider.js",
+            "name": "./node_modules/webu/lib/webu/ipcprovider.js",
             "size": 5509,
-            "id": "./node_modules/web3/lib/web3/ipcprovider.js"
+            "id": "./node_modules/webu/lib/webu/ipcprovider.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/jsonrpc.js",
+            "name": "./node_modules/webu/lib/webu/jsonrpc.js",
             "size": 2522,
-            "id": "./node_modules/web3/lib/web3/jsonrpc.js"
+            "id": "./node_modules/webu/lib/webu/jsonrpc.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/property.js",
+            "name": "./node_modules/webu/lib/webu/property.js",
             "size": 3875,
-            "id": "./node_modules/web3/lib/web3/property.js"
+            "id": "./node_modules/webu/lib/webu/property.js"
           },
           {
             "name": "util (ignored)",
@@ -18541,69 +18541,69 @@
             "id": 1
           },
           {
-            "name": "./node_modules/web3/lib/web3/method.js",
+            "name": "./node_modules/webu/lib/webu/method.js",
             "size": 4522,
-            "id": "./node_modules/web3/lib/web3/method.js"
+            "id": "./node_modules/webu/lib/webu/method.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/methods/db.js",
+            "name": "./node_modules/webu/lib/webu/methods/db.js",
             "size": 1640,
-            "id": "./node_modules/web3/lib/web3/methods/db.js"
+            "id": "./node_modules/webu/lib/webu/methods/db.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/methods/eth.js",
+            "name": "./node_modules/webu/lib/webu/methods/huc.js",
             "size": 10133,
-            "id": "./node_modules/web3/lib/web3/methods/eth.js"
+            "id": "./node_modules/webu/lib/webu/methods/huc.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/methods/net.js",
+            "name": "./node_modules/webu/lib/webu/methods/net.js",
             "size": 1498,
-            "id": "./node_modules/web3/lib/web3/methods/net.js"
+            "id": "./node_modules/webu/lib/webu/methods/net.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/methods/personal.js",
+            "name": "./node_modules/webu/lib/webu/methods/personal.js",
             "size": 2889,
-            "id": "./node_modules/web3/lib/web3/methods/personal.js"
+            "id": "./node_modules/webu/lib/webu/methods/personal.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/methods/shh.js",
+            "name": "./node_modules/webu/lib/webu/methods/shh.js",
             "size": 3819,
-            "id": "./node_modules/web3/lib/web3/methods/shh.js"
+            "id": "./node_modules/webu/lib/webu/methods/shh.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/methods/swarm.js",
+            "name": "./node_modules/webu/lib/webu/methods/swarm.js",
             "size": 3336,
-            "id": "./node_modules/web3/lib/web3/methods/swarm.js"
+            "id": "./node_modules/webu/lib/webu/methods/swarm.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/methods/watches.js",
+            "name": "./node_modules/webu/lib/webu/methods/watches.js",
             "size": 2648,
-            "id": "./node_modules/web3/lib/web3/methods/watches.js"
+            "id": "./node_modules/webu/lib/webu/methods/watches.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/namereg.js",
+            "name": "./node_modules/webu/lib/webu/namereg.js",
             "size": 1271,
-            "id": "./node_modules/web3/lib/web3/namereg.js"
+            "id": "./node_modules/webu/lib/webu/namereg.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/requestmanager.js",
+            "name": "./node_modules/webu/lib/webu/requestmanager.js",
             "size": 6834,
-            "id": "./node_modules/web3/lib/web3/requestmanager.js"
+            "id": "./node_modules/webu/lib/webu/requestmanager.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/settings.js",
+            "name": "./node_modules/webu/lib/webu/settings.js",
             "size": 134,
-            "id": "./node_modules/web3/lib/web3/settings.js"
+            "id": "./node_modules/webu/lib/webu/settings.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/syncing.js",
+            "name": "./node_modules/webu/lib/webu/syncing.js",
             "size": 2730,
-            "id": "./node_modules/web3/lib/web3/syncing.js"
+            "id": "./node_modules/webu/lib/webu/syncing.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/transfer.js",
+            "name": "./node_modules/webu/lib/webu/transfer.js",
             "size": 2649,
-            "id": "./node_modules/web3/lib/web3/transfer.js"
+            "id": "./node_modules/webu/lib/webu/transfer.js"
           },
           {
             "name": "(webpack)/node_modules/timers-browserify/main.js",
@@ -21132,9 +21132,9 @@
             "id": "./node_modules/file-loader/index.js?name=token-icons/[name].[ext]!./app/images/token-icons/eos.png"
           },
           {
-            "name": "./node_modules/file-loader?name=token-icons/[name].[ext]!./app/images/token-icons/eth.png",
+            "name": "./node_modules/file-loader?name=token-icons/[name].[ext]!./app/images/token-icons/huc.png",
             "size": 65,
-            "id": "./node_modules/file-loader/index.js?name=token-icons/[name].[ext]!./app/images/token-icons/eth.png"
+            "id": "./node_modules/file-loader/index.js?name=token-icons/[name].[ext]!./app/images/token-icons/huc.png"
           },
           {
             "name": "./node_modules/file-loader?name=token-icons/[name].[ext]!./app/images/token-icons/ethos.png",
@@ -22633,7 +22633,7 @@
         "size": 1657
       },
       {
-        "name": "token-icons/eth.png",
+        "name": "token-icons/huc.png",
         "chunks": [],
         "size": 1441
       },
@@ -24612,99 +24612,99 @@
             "id": "./node_modules/eth-lightwallet/node_modules/tweetnacl/nacl-fast.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/address.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/address.js",
             "size": 663,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/address.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/address.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/bool.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/bool.js",
             "size": 618,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/bool.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/bool.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/bytes.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/bytes.js",
             "size": 690,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/bytes.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/bytes.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/coder.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/coder.js",
             "size": 7995,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/coder.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/coder.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/dynamicbytes.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/dynamicbytes.js",
             "size": 612,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/dynamicbytes.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/dynamicbytes.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/formatters.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/formatters.js",
             "size": 7567,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/formatters.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/formatters.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/int.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/int.js",
             "size": 688,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/int.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/int.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/param.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/param.js",
             "size": 4187,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/param.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/param.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/real.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/real.js",
             "size": 709,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/real.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/real.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/string.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/string.js",
             "size": 559,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/string.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/string.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/type.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/type.js",
             "size": 7570,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/type.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/type.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/uint.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/uint.js",
             "size": 710,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/uint.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/uint.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/ureal.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/ureal.js",
             "size": 733,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/solidity/ureal.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/solidity/ureal.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/utils/config.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/utils/config.js",
             "size": 1663,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/utils/config.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/utils/config.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/utils/sha3.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/utils/sha3.js",
             "size": 1193,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/utils/sha3.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/utils/sha3.js"
           },
           {
-            "name": "./node_modules/eth-lightwallet/node_modules/web3/lib/utils/utils.js",
+            "name": "./node_modules/eth-lightwallet/node_modules/webu/lib/utils/utils.js",
             "size": 16779,
-            "id": "./node_modules/eth-lightwallet/node_modules/web3/lib/utils/utils.js"
+            "id": "./node_modules/eth-lightwallet/node_modules/webu/lib/utils/utils.js"
           },
           {
-            "name": "./node_modules/ethereum-common/params.json",
+            "name": "./node_modules/happyucjs-common/params.json",
             "size": 4683,
-            "id": "./node_modules/ethereum-common/params.json"
+            "id": "./node_modules/happyucjs-common/params.json"
           },
           {
-            "name": "./node_modules/ethereumjs-tx/es5/index.js",
+            "name": "./node_modules/happyucjs-tx/es5/index.js",
             "size": 8827,
-            "id": "./node_modules/ethereumjs-tx/es5/index.js"
+            "id": "./node_modules/happyucjs-tx/es5/index.js"
           },
           {
-            "name": "./node_modules/ethereumjs-util/index.js",
+            "name": "./node_modules/happyucjs-util/index.js",
             "size": 18054,
-            "id": "./node_modules/ethereumjs-util/index.js"
+            "id": "./node_modules/happyucjs-util/index.js"
           },
           {
             "name": "./node_modules/ethjs-util/lib/index.js",
@@ -26012,189 +26012,189 @@
             "id": "./node_modules/vm-browserify/index.js"
           },
           {
-            "name": "./node_modules/web3/index.js",
+            "name": "./node_modules/webu/index.js",
             "size": 193,
-            "id": "./node_modules/web3/index.js"
+            "id": "./node_modules/webu/index.js"
           },
           {
-            "name": "./node_modules/web3/lib/contracts/GlobalRegistrar.json",
+            "name": "./node_modules/webu/lib/contracts/GlobalRegistrar.json",
             "size": 2323,
-            "id": "./node_modules/web3/lib/contracts/GlobalRegistrar.json"
+            "id": "./node_modules/webu/lib/contracts/GlobalRegistrar.json"
           },
           {
-            "name": "./node_modules/web3/lib/contracts/ICAPRegistrar.json",
+            "name": "./node_modules/webu/lib/contracts/ICAPRegistrar.json",
             "size": 955,
-            "id": "./node_modules/web3/lib/contracts/ICAPRegistrar.json"
+            "id": "./node_modules/webu/lib/contracts/ICAPRegistrar.json"
           },
           {
-            "name": "./node_modules/web3/lib/contracts/SmartExchange.json",
+            "name": "./node_modules/webu/lib/contracts/SmartExchange.json",
             "size": 1391,
-            "id": "./node_modules/web3/lib/contracts/SmartExchange.json"
+            "id": "./node_modules/webu/lib/contracts/SmartExchange.json"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/address.js",
+            "name": "./node_modules/webu/lib/solidity/address.js",
             "size": 663,
-            "id": "./node_modules/web3/lib/solidity/address.js"
+            "id": "./node_modules/webu/lib/solidity/address.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/bool.js",
+            "name": "./node_modules/webu/lib/solidity/bool.js",
             "size": 618,
-            "id": "./node_modules/web3/lib/solidity/bool.js"
+            "id": "./node_modules/webu/lib/solidity/bool.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/bytes.js",
+            "name": "./node_modules/webu/lib/solidity/bytes.js",
             "size": 690,
-            "id": "./node_modules/web3/lib/solidity/bytes.js"
+            "id": "./node_modules/webu/lib/solidity/bytes.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/coder.js",
+            "name": "./node_modules/webu/lib/solidity/coder.js",
             "size": 7995,
-            "id": "./node_modules/web3/lib/solidity/coder.js"
+            "id": "./node_modules/webu/lib/solidity/coder.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/dynamicbytes.js",
+            "name": "./node_modules/webu/lib/solidity/dynamicbytes.js",
             "size": 612,
-            "id": "./node_modules/web3/lib/solidity/dynamicbytes.js"
+            "id": "./node_modules/webu/lib/solidity/dynamicbytes.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/formatters.js",
+            "name": "./node_modules/webu/lib/solidity/formatters.js",
             "size": 7567,
-            "id": "./node_modules/web3/lib/solidity/formatters.js"
+            "id": "./node_modules/webu/lib/solidity/formatters.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/int.js",
+            "name": "./node_modules/webu/lib/solidity/int.js",
             "size": 688,
-            "id": "./node_modules/web3/lib/solidity/int.js"
+            "id": "./node_modules/webu/lib/solidity/int.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/param.js",
+            "name": "./node_modules/webu/lib/solidity/param.js",
             "size": 4187,
-            "id": "./node_modules/web3/lib/solidity/param.js"
+            "id": "./node_modules/webu/lib/solidity/param.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/real.js",
+            "name": "./node_modules/webu/lib/solidity/real.js",
             "size": 709,
-            "id": "./node_modules/web3/lib/solidity/real.js"
+            "id": "./node_modules/webu/lib/solidity/real.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/string.js",
+            "name": "./node_modules/webu/lib/solidity/string.js",
             "size": 559,
-            "id": "./node_modules/web3/lib/solidity/string.js"
+            "id": "./node_modules/webu/lib/solidity/string.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/type.js",
+            "name": "./node_modules/webu/lib/solidity/type.js",
             "size": 7570,
-            "id": "./node_modules/web3/lib/solidity/type.js"
+            "id": "./node_modules/webu/lib/solidity/type.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/uint.js",
+            "name": "./node_modules/webu/lib/solidity/uint.js",
             "size": 710,
-            "id": "./node_modules/web3/lib/solidity/uint.js"
+            "id": "./node_modules/webu/lib/solidity/uint.js"
           },
           {
-            "name": "./node_modules/web3/lib/solidity/ureal.js",
+            "name": "./node_modules/webu/lib/solidity/ureal.js",
             "size": 733,
-            "id": "./node_modules/web3/lib/solidity/ureal.js"
+            "id": "./node_modules/webu/lib/solidity/ureal.js"
           },
           {
-            "name": "./node_modules/web3/lib/utils/browser-xhr.js",
+            "name": "./node_modules/webu/lib/utils/browser-xhr.js",
             "size": 219,
-            "id": "./node_modules/web3/lib/utils/browser-xhr.js"
+            "id": "./node_modules/webu/lib/utils/browser-xhr.js"
           },
           {
-            "name": "./node_modules/web3/lib/utils/config.js",
+            "name": "./node_modules/webu/lib/utils/config.js",
             "size": 1663,
-            "id": "./node_modules/web3/lib/utils/config.js"
+            "id": "./node_modules/webu/lib/utils/config.js"
           },
           {
-            "name": "./node_modules/web3/lib/utils/sha3.js",
+            "name": "./node_modules/webu/lib/utils/sha3.js",
             "size": 1193,
-            "id": "./node_modules/web3/lib/utils/sha3.js"
+            "id": "./node_modules/webu/lib/utils/sha3.js"
           },
           {
-            "name": "./node_modules/web3/lib/utils/utils.js",
+            "name": "./node_modules/webu/lib/utils/utils.js",
             "size": 16727,
-            "id": "./node_modules/web3/lib/utils/utils.js"
+            "id": "./node_modules/webu/lib/utils/utils.js"
           },
           {
-            "name": "./node_modules/web3/lib/version.json",
+            "name": "./node_modules/webu/lib/version.json",
             "size": 37,
-            "id": "./node_modules/web3/lib/version.json"
+            "id": "./node_modules/webu/lib/version.json"
           },
           {
-            "name": "./node_modules/web3/lib/web3.js",
+            "name": "./node_modules/webu/lib/webu.js",
             "size": 4533,
-            "id": "./node_modules/web3/lib/web3.js"
+            "id": "./node_modules/webu/lib/webu.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/allevents.js",
+            "name": "./node_modules/webu/lib/webu/allevents.js",
             "size": 2716,
-            "id": "./node_modules/web3/lib/web3/allevents.js"
+            "id": "./node_modules/webu/lib/webu/allevents.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/batch.js",
+            "name": "./node_modules/webu/lib/webu/batch.js",
             "size": 1960,
-            "id": "./node_modules/web3/lib/web3/batch.js"
+            "id": "./node_modules/webu/lib/webu/batch.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/contract.js",
+            "name": "./node_modules/webu/lib/webu/contract.js",
             "size": 9335,
-            "id": "./node_modules/web3/lib/web3/contract.js"
+            "id": "./node_modules/webu/lib/webu/contract.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/errors.js",
+            "name": "./node_modules/webu/lib/webu/errors.js",
             "size": 1665,
-            "id": "./node_modules/web3/lib/web3/errors.js"
+            "id": "./node_modules/webu/lib/webu/errors.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/event.js",
+            "name": "./node_modules/webu/lib/webu/event.js",
             "size": 5857,
-            "id": "./node_modules/web3/lib/web3/event.js"
+            "id": "./node_modules/webu/lib/webu/event.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/extend.js",
+            "name": "./node_modules/webu/lib/webu/extend.js",
             "size": 1319,
-            "id": "./node_modules/web3/lib/web3/extend.js"
+            "id": "./node_modules/webu/lib/webu/extend.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/filter.js",
+            "name": "./node_modules/webu/lib/webu/filter.js",
             "size": 7345,
-            "id": "./node_modules/web3/lib/web3/filter.js"
+            "id": "./node_modules/webu/lib/webu/filter.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/formatters.js",
+            "name": "./node_modules/webu/lib/webu/formatters.js",
             "size": 9003,
-            "id": "./node_modules/web3/lib/web3/formatters.js"
+            "id": "./node_modules/webu/lib/webu/formatters.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/function.js",
+            "name": "./node_modules/webu/lib/webu/function.js",
             "size": 8053,
-            "id": "./node_modules/web3/lib/web3/function.js"
+            "id": "./node_modules/webu/lib/webu/function.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/httpprovider.js",
+            "name": "./node_modules/webu/lib/webu/httpprovider.js",
             "size": 4181,
-            "id": "./node_modules/web3/lib/web3/httpprovider.js"
+            "id": "./node_modules/webu/lib/webu/httpprovider.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/iban.js",
+            "name": "./node_modules/webu/lib/webu/iban.js",
             "size": 6013,
-            "id": "./node_modules/web3/lib/web3/iban.js"
+            "id": "./node_modules/webu/lib/webu/iban.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/ipcprovider.js",
+            "name": "./node_modules/webu/lib/webu/ipcprovider.js",
             "size": 5509,
-            "id": "./node_modules/web3/lib/web3/ipcprovider.js"
+            "id": "./node_modules/webu/lib/webu/ipcprovider.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/jsonrpc.js",
+            "name": "./node_modules/webu/lib/webu/jsonrpc.js",
             "size": 2522,
-            "id": "./node_modules/web3/lib/web3/jsonrpc.js"
+            "id": "./node_modules/webu/lib/webu/jsonrpc.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/property.js",
+            "name": "./node_modules/webu/lib/webu/property.js",
             "size": 3875,
-            "id": "./node_modules/web3/lib/web3/property.js"
+            "id": "./node_modules/webu/lib/webu/property.js"
           },
           {
             "name": "util (ignored)",
@@ -26202,69 +26202,69 @@
             "id": 1
           },
           {
-            "name": "./node_modules/web3/lib/web3/method.js",
+            "name": "./node_modules/webu/lib/webu/method.js",
             "size": 4522,
-            "id": "./node_modules/web3/lib/web3/method.js"
+            "id": "./node_modules/webu/lib/webu/method.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/methods/db.js",
+            "name": "./node_modules/webu/lib/webu/methods/db.js",
             "size": 1640,
-            "id": "./node_modules/web3/lib/web3/methods/db.js"
+            "id": "./node_modules/webu/lib/webu/methods/db.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/methods/eth.js",
+            "name": "./node_modules/webu/lib/webu/methods/huc.js",
             "size": 10133,
-            "id": "./node_modules/web3/lib/web3/methods/eth.js"
+            "id": "./node_modules/webu/lib/webu/methods/huc.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/methods/net.js",
+            "name": "./node_modules/webu/lib/webu/methods/net.js",
             "size": 1498,
-            "id": "./node_modules/web3/lib/web3/methods/net.js"
+            "id": "./node_modules/webu/lib/webu/methods/net.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/methods/personal.js",
+            "name": "./node_modules/webu/lib/webu/methods/personal.js",
             "size": 2889,
-            "id": "./node_modules/web3/lib/web3/methods/personal.js"
+            "id": "./node_modules/webu/lib/webu/methods/personal.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/methods/shh.js",
+            "name": "./node_modules/webu/lib/webu/methods/shh.js",
             "size": 3819,
-            "id": "./node_modules/web3/lib/web3/methods/shh.js"
+            "id": "./node_modules/webu/lib/webu/methods/shh.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/methods/swarm.js",
+            "name": "./node_modules/webu/lib/webu/methods/swarm.js",
             "size": 3336,
-            "id": "./node_modules/web3/lib/web3/methods/swarm.js"
+            "id": "./node_modules/webu/lib/webu/methods/swarm.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/methods/watches.js",
+            "name": "./node_modules/webu/lib/webu/methods/watches.js",
             "size": 2648,
-            "id": "./node_modules/web3/lib/web3/methods/watches.js"
+            "id": "./node_modules/webu/lib/webu/methods/watches.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/namereg.js",
+            "name": "./node_modules/webu/lib/webu/namereg.js",
             "size": 1271,
-            "id": "./node_modules/web3/lib/web3/namereg.js"
+            "id": "./node_modules/webu/lib/webu/namereg.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/requestmanager.js",
+            "name": "./node_modules/webu/lib/webu/requestmanager.js",
             "size": 6834,
-            "id": "./node_modules/web3/lib/web3/requestmanager.js"
+            "id": "./node_modules/webu/lib/webu/requestmanager.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/settings.js",
+            "name": "./node_modules/webu/lib/webu/settings.js",
             "size": 134,
-            "id": "./node_modules/web3/lib/web3/settings.js"
+            "id": "./node_modules/webu/lib/webu/settings.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/syncing.js",
+            "name": "./node_modules/webu/lib/webu/syncing.js",
             "size": 2730,
-            "id": "./node_modules/web3/lib/web3/syncing.js"
+            "id": "./node_modules/webu/lib/webu/syncing.js"
           },
           {
-            "name": "./node_modules/web3/lib/web3/transfer.js",
+            "name": "./node_modules/webu/lib/webu/transfer.js",
             "size": 2649,
-            "id": "./node_modules/web3/lib/web3/transfer.js"
+            "id": "./node_modules/webu/lib/webu/transfer.js"
           },
           {
             "name": "(webpack)/node_modules/timers-browserify/main.js",
@@ -28793,9 +28793,9 @@
             "id": "./node_modules/file-loader/index.js?name=token-icons/[name].[ext]!./app/images/token-icons/eos.png"
           },
           {
-            "name": "./node_modules/file-loader?name=token-icons/[name].[ext]!./app/images/token-icons/eth.png",
+            "name": "./node_modules/file-loader?name=token-icons/[name].[ext]!./app/images/token-icons/huc.png",
             "size": 65,
-            "id": "./node_modules/file-loader/index.js?name=token-icons/[name].[ext]!./app/images/token-icons/eth.png"
+            "id": "./node_modules/file-loader/index.js?name=token-icons/[name].[ext]!./app/images/token-icons/huc.png"
           },
           {
             "name": "./node_modules/file-loader?name=token-icons/[name].[ext]!./app/images/token-icons/ethos.png",

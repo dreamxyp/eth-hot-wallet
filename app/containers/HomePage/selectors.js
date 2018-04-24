@@ -96,7 +96,7 @@ const makeSelectAddressList = () => createSelector(
  * returns map for specific given address or map of all addresses if no address is given
  * {
  *   index: 1 // optional
- *   eth: {balance: bigNumber / false},
+ *   huc: {balance: bigNumber / false},
  *   eos: {balance: bigNumber / false},
  *   ppt: {balance: bigNumber / false},
  * }
@@ -106,14 +106,14 @@ const makeSelectAddressList = () => createSelector(
  * @param  {object} options may include the following:
  * @param  {boolean} options.returnList should returned array from keys instead of map? (optional)
  * @param  {boolean} options.removeIndex should remove the key index? (optional)
- * @param  {boolean} options.removeEth should remove the key eth? (optional)
+ * @param  {boolean} options.removeHuc should remove the key huc? (optional)
  *
  * @return {object} An object which holds the tokens and balances or array
  */
 const makeSelectAddressMap = (address, options = {}) => createSelector(
   selectHome,
   (homeState) => {
-    const { returnList, removeIndex, removeEth } = options;
+    const { returnList, removeIndex, removeHuc } = options;
     let addressMap = address ? homeState.getIn(['addressList', address]) : homeState.get('addressList');
     if (!addressMap) {
       return null;
@@ -121,7 +121,7 @@ const makeSelectAddressMap = (address, options = {}) => createSelector(
     if (address && removeIndex) {
       addressMap = addressMap.delete('index');
     }
-    if (address && removeEth) {
+    if (address && removeHuc) {
       addressMap = addressMap.delete('eth');
     }
     const returnS = (returnList ? addressMap.keySeq().toArray() : addressMap.toJS());
@@ -187,7 +187,7 @@ const makeSelectTokenInfoList = () => createSelector(
 /**
  * returns decimals map for all tokens
  *{
- *  eth: 18,
+ *  huc: 18,
  *  eos: 18,
  *  ppt: 3
  *},

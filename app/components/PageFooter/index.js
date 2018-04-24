@@ -30,11 +30,11 @@ function PageFooter() {
     <Footer>
       <Row>
         <Col sm={12} xs={24}>
-          {'ETH Hot Wallet - '}
+          {'HUC Hot Wallet - '}
           <a href={github} target="_blank" rel="noopener">
-            Ethereum and ERC20 open source wallet (Github)
+            HappyUC and ERC20 open source wallet (Github)
           </a><br />
-          Created using: eth-lightwallet, React.js, Ant design...
+          Created using: huc-lightwallet, React.js, Ant design...
         </Col>
 
         <Span>

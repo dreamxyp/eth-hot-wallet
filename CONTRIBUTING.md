@@ -1,4 +1,4 @@
-# Contributing to eth-hot-wallet
+# Contributing to huc-hot-wallet
 
 Love react-boilerplate and want to help? Thanks so much, there's something to do for everybody!
 

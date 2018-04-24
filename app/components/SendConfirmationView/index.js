@@ -64,7 +64,7 @@ function SendConfirmationView(props) {
         />
         <br />
         <Button icon="to-top" onClick={onSendTransaction} disabled={isSendComfirmationLocked} >
-          {sendError ? 'Try again' : 'Send ETH'}
+          {sendError ? 'Try again' : 'Send HUC'}
         </Button>
         {' '}
         <Button icon="close" onClick={onAbortTransaction} disabled={isSendComfirmationLocked} >

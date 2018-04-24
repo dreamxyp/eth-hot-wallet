@@ -89,14 +89,14 @@ const initialState = fromJS({
   addressList: {
     address1: {
         order: 1
-        eth: {balance: bigNumber},
+        huc: {balance: bigNumber},
         eos: {balance: bigNumber},
         ppt: {balance: bigNumber},
       }
   } */
 
   exchangeRates: {},
-  convertTo: 'eth_usd',
+  convertTo: 'huc_usd',
 
   addressListLoading: false, // for addressList loading and error
   addressListError: false,
@@ -111,8 +111,8 @@ const initialState = fromJS({
   loadWalletError: false,
 
   tokenInfo: {
-    eth: {
-      name: 'Ethereum',
+    huc: {
+      name: 'HappyUC',
       contractAddress: null,
       decimals: 18,
     },

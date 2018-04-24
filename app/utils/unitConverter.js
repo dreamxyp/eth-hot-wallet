@@ -3,14 +3,14 @@ import BigNumber from 'bignumber.js';
 BigNumber.config({ POW_PRECISION: 10 });
 
 /*
-const requestURL = 'https://api.coinmarketcap.com/v1/ticker/ethereum/?convert=EUR';
+const requestURL = 'https://api.coinmarketcap.com/v1/ticker/happyuc-project/?convert=EUR';
 
 // Call our request helper (see 'utils/request')
 // const apiPrices = (yield call(request, requestURL))[0];
 const ApiPrices =
   [{
-    "id": "ethereum",
-    "name": "Ethereum",
+    "id": "happyuc",
+    "name": "HappyUC",
     "symbol": "ETH",
     "rank": "2",
     "price_usd": "295.412",
@@ -20,9 +20,9 @@ const ApiPrices =
   }];
 
 const Output = {
-    eth_usd: {name:'USD',rate: BigNumber("295.412")},
-    eth_btc: {name:'BTC',rate: BigNumber("95.412")},
-    eth_eur: {name:'EUR',rate: BigNumber("25.412")},
+    huc_usd: {name:'USD',rate: BigNumber("295.412")},
+    huc_btc: {name:'BTC',rate: BigNumber("95.412")},
+    huc_eur: {name:'EUR',rate: BigNumber("25.412")},
   }; */
 
 /* map to generate convertion rate for each currency
@@ -30,19 +30,19 @@ const Output = {
 */
 const ratesMaps =
   {
-    'https://api.coinmarketcap.com/v1/ticker/ethereum/?convert=EUR': {
-      eth_eth: { path: { const: 1 }, isInverse: false, name: 'ETH' },
-      eth_usd: { path: { symbol: 'eth', key: 'price_usd' }, name: 'USD' },
-      eth_btc: { path: { symbol: 'eth', key: 'price_btc' }, name: 'BTC' },
-      eth_eur: { path: { symbol: 'eth', key: 'price_eur' }, name: 'EURO' },
+    'https://api.coinmarketcap.com/v1/ticker/happyuc-project/?convert=EUR': {
+      huc_eth: { path: { const: 1 }, isInverse: false, name: 'ETH' },
+      huc_usd: { path: { symbol: 'eth', key: 'price_usd' }, name: 'USD' },
+      huc_btc: { path: { symbol: 'eth', key: 'price_btc' }, name: 'BTC' },
+      huc_eur: { path: { symbol: 'eth', key: 'price_eur' }, name: 'EURO' },
     },
 
     'https://api.coinmarketcap.com/v1/ticker/?convert=EUR': {
-      eth_eth: { path: { const: 1 }, name: 'ETH' },
-      eth_usd: { path: { symbol: 'eth', key: 'price_usd' }, name: 'USD' },
-      eth_btc: { path: { symbol: 'eth', key: 'price_btc' }, name: 'BTC' },
-      eth_eur: { path: { symbol: 'eth', key: 'price_eur' }, name: 'EURO' },
-      eth_eos: { // to get eth_eos: eth_usd * usd_eos
+      huc_eth: { path: { const: 1 }, name: 'ETH' },
+      huc_usd: { path: { symbol: 'eth', key: 'price_usd' }, name: 'USD' },
+      huc_btc: { path: { symbol: 'eth', key: 'price_btc' }, name: 'BTC' },
+      huc_eur: { path: { symbol: 'eth', key: 'price_eur' }, name: 'EURO' },
+      huc_eos: { // to get huc_eos: huc_usd * usd_eos
         name: 'EOS',
         path: { symbol: 'eth', key: 'price_usd', isInverse: false },
         path2: { symbol: 'eos', key: 'price_usd', isInverse: true },
@@ -53,8 +53,8 @@ const ratesMaps =
 
 /**
  * Adds path for every token in tokenList,
- * to find eth_token path, Each token will be converted using double path:
- * first: eth_usd then usd_token, resulting in eth_token rate
+ * to find huc_token path, Each token will be converted using double path:
+ * first: huc_usd then usd_token, resulting in huc_token rate
  *
  * @param  {object} ratesMap response from rates api
  * @param  {string[]} tokenList array of token symbols to extract from api response
@@ -64,7 +64,7 @@ const addPathsForTokens = (ratesMap, tokenList) => {
   const resultMap = ratesMap;
   tokenList.forEach((token) => {
     if (token === 'eth') return;
-    resultMap[`eth_${token}`] = {
+    resultMap[`huc_${token}`] = {
       name: token,
       path: { symbol: 'eth', key: 'price_usd', isInverse: false },
       path2: { symbol: token, key: 'price_usd', isInverse: true },
@@ -74,12 +74,12 @@ const addPathsForTokens = (ratesMap, tokenList) => {
 };
 
 /**
- * Extract api rates into a map. keys will be: eth_x where x is currency symbol
+ * Extract api rates into a map. keys will be: huc_x where x is currency symbol
  *
  * @param  {object[]} apiRates response from rates api
  * @param  {string} requestUrl api request address - used as key in rateMaps
  * @param  {string[]} tokenList array of token symbols to extract from api response
- * @return {object} map of exchange rates, each key will be eth_x
+ * @return {object} map of exchange rates, each key will be huc_x
  */
 export default function extractRates(apiRates, requestUrl, tokenList) {
   let ratesMap = ratesMaps[requestUrl];
@@ -92,7 +92,7 @@ export default function extractRates(apiRates, requestUrl, tokenList) {
 
   Object.keys(ratesMap).forEach((key) => {
     const rate1 = getRate(apiRates, ratesMap[key].path);
-    // 2 conversion might be needed to get eth_token rate:
+    // 2 conversion might be needed to get huc_token rate:
     const rate2 = ratesMap[key].path2 && getRate(apiRates, ratesMap[key].path2);
     // only one rate is needed for conversion
     if (rate1 && !ratesMap[key].path2) {

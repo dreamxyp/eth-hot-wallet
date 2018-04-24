@@ -58,7 +58,7 @@ export const TokenSelection = {
       name: 'OmiseGo',
       contractAddress: '0xd26114cd6EE289AccF82350c8d8487fedB8A0C07',
       decimals: 18,
-      description: 'OmiseGO (OMG) is a public Ethereum-based financial technology for use in mainstream digital wallets',
+      description: 'OmiseGO (OMG) is a public HappyUC-based financial technology for use in mainstream digital wallets',
       url: 'https://omisego.network/',
     },
     {
@@ -82,7 +82,7 @@ export const TokenSelection = {
       name: 'Status Network',
       contractAddress: '0x744d70fdbe2ba4cf95131626614a1763df805b9e',
       decimals: 18,
-      description: 'Status is an open source messaging platform and mobile browser to interact with decentralized applications that run on the Ethereum Network',
+      description: 'Status is an open source messaging platform and mobile browser to interact with decentralized applications that run on the HappyUC Network',
       url: 'https://status.im/',
     },
     {
@@ -90,7 +90,7 @@ export const TokenSelection = {
       name: 'Maker',
       contractAddress: '0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2',
       decimals: 18,
-      description: 'Maker is a Decentralized Autonomous Organization that creates and insures the dai stablecoin on the Ethereum blockchain',
+      description: 'Maker is a Decentralized Autonomous Organization that creates and insures the dai stablecoin on the HappyUC blockchain',
       url: 'https://makerdao.com/',
     },
     {
@@ -130,7 +130,7 @@ export const TokenSelection = {
       name: 'FunFair',
       contractAddress: '0x419d0d8bdd9af5e606ae2232ed285aff190e711b',
       decimals: 8,
-      description: 'FunFair is a decentralised gaming platform powered by Ethereum smart contracts',
+      description: 'FunFair is a decentralised gaming platform powered by HappyUC smart contracts',
       url: 'https://www.funfair.io/',
     },
     {
@@ -163,14 +163,14 @@ export const TokenSelection = {
       contractAddress: '0x5af2be193a6abca9c8817001f45744777db30756',
       decimals: 18,
       description: 'People-powered cryptocurrency services for the blockchain',
-      url: 'https://www.ethos.io/',
+      url: 'https://www.hucos.io/',
     },
     {
       symbol: 'req',
       name: 'Request',
       contractAddress: '0x8f8221afbb33998d8584a2b05749ba73c37a938a',
       decimals: 18,
-      description: 'A decentralized network built on top of Ethereum, which allows anyone, anywhere to request a payment',
+      description: 'A decentralized network built on top of HappyUC, which allows anyone, anywhere to request a payment',
       url: 'https://request.network/',
     },
     {

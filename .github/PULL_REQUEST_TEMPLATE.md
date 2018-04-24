@@ -1,4 +1,4 @@
-## ETH-Hot-Wallet
+## HUC-Hot-Wallet
 
 Thank you for contributing! 
 

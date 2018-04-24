@@ -1,4 +1,4 @@
-import Web3 from 'web3';
+import Webu from 'webu';
 import SignerProvider from 'vendor/ethjs-provider-signer/ethjs-provider-signer';
 import BigNumber from 'bignumber.js';
 import { take, call, put, select, takeLatest, race, fork } from 'redux-saga/effects';
@@ -38,9 +38,9 @@ import {
 
 import {
   timeBetweenCheckbalances,
-  Ether,
+  Huc,
   Gwei,
-  maxGasForEthSend,
+  maxGasForHucSend,
   maxGasForTokenSend,
   offlineModeString,
   checkFaucetAddress,
@@ -86,8 +86,8 @@ import {
 } from './constants';
 
 import Network from './network';
-const web3 = new Web3(); // eslint-disable-line
-const erc20Contract = web3.eth.contract(erc20Abi);
+const webu = new Webu(); // eslint-disable-line
+const erc20Contract = webu.huc.contract(erc20Abi);
 
 /* For development only, if online = false then most api calls will be replaced by constant values
 * affected functions:
@@ -112,7 +112,7 @@ export function* loadNetwork(action) {
     }
 
     if (action.networkName === offlineModeString) {
-      web3.setProvider(null);
+      webu.setProvider(null);
       yield put(stopPollingBalances());
       yield put(loadNetworkError(offlineModeString));
       return;
@@ -126,11 +126,11 @@ export function* loadNetwork(action) {
         accounts: (cb) => cb(null, keystore.getAddresses()),
       });
 
-      web3.setProvider(provider);
+      webu.setProvider(provider);
 
       function getBlockNumberPromise() { // eslint-disable-line no-inner-declarations
         return new Promise((resolve, reject) => {
-          web3.eth.getBlockNumber((err, data) => {
+          webu.huc.getBlockNumber((err, data) => {
             if (err !== null) return reject(err);
             return resolve(data);
           });
@@ -175,7 +175,7 @@ export function* confirmSendTransaction() {
     const toAddress = yield select(makeSelectTo());
     const gasPrice = yield select(makeSelectGasPrice());
 
-    if (!web3.isAddress(fromAddress)) {
+    if (!webu.isAddress(fromAddress)) {
       throw new Error('Source address invalid');
     }
 
@@ -183,7 +183,7 @@ export function* confirmSendTransaction() {
       throw new Error('Amount must be possitive');
     }
 
-    if (!web3.isAddress(toAddress)) {
+    if (!webu.isAddress(toAddress)) {
       throw new Error('Destenation address invalid');
     }
 
@@ -226,11 +226,11 @@ export function* SendTransaction() {
 
     let tx;
     if (tokenToSend === 'eth') {
-      const sendAmount = new BigNumber(amount).times(Ether);
-      const sendParams = { from: fromAddress, to: toAddress, value: sendAmount, gasPrice, gas: maxGasForEthSend };
+      const sendAmount = new BigNumber(amount).times(Huc);
+      const sendParams = { from: fromAddress, to: toAddress, value: sendAmount, gasPrice, gas: maxGasForHucSend };
       function sendTransactionPromise(params) { // eslint-disable-line no-inner-declarations
         return new Promise((resolve, reject) => {
-          web3.eth.sendTransaction(params, (err, data) => {
+          webu.huc.sendTransaction(params, (err, data) => {
             if (err !== null) return reject(err);
             return resolve(data);
           });
@@ -270,9 +270,9 @@ export function* SendTransaction() {
 
 
 /* *************  Polling saga and polling flow for check balances ***************** */
-export function getEthBalancePromise(address) {
+export function getHucBalancePromise(address) {
   return new Promise((resolve, reject) => {
-    web3.eth.getBalance(address, (err, data) => {
+    webu.huc.getBalance(address, (err, data) => {
       if (err !== null) return reject(err);
       return resolve(data);
     });
@@ -308,7 +308,7 @@ function* checkTokensBalances(address) {
   const opt = {
     returnList: true,
     removeIndex: true,
-    removeEth: true,
+    removeHuc: true,
   };
   const tokenList = yield select(makeSelectAddressMap(address, opt));
 
@@ -327,8 +327,8 @@ export function* checkAllBalances() {
 
     do { // Iterate over all addresses and check for balance
       const address = addressList[j];
-      // handle eth
-      const balance = yield call(getEthBalancePromise, address);
+      // handle huc
+      const balance = yield call(getHucBalancePromise, address);
       yield put(changeBalance(address, 'eth', balance));
 
       // handle tokens
@@ -382,12 +382,12 @@ function* watchPollData() {
  * Get exchange rates from api
  */
 export function* getRates() {
-  // const requestURL = 'https://api.coinmarketcap.com/v1/ticker/ethereum/?convert=EUR';
+  // const requestURL = 'https://api.coinmarketcap.com/v1/ticker/happyuc-project/?convert=EUR';
   const requestURL = 'https://api.coinmarketcap.com/v1/ticker/?convert=EUR';
   try {
     let dummyRates = [{ // for testin in online = false mode
-      id: 'ethereum',
-      name: 'Ethereum',
+      id: 'happyuc',
+      name: 'HappyUC',
       symbol: 'ETH',
       rank: '2',
       price_usd: '295.412',

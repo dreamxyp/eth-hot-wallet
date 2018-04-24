@@ -39,7 +39,7 @@ import { generatedPasswordLength, hdPathString, offlineModeString, defaultNetwor
 
 import { timer } from 'utils/common';
 
-import { getEthBalancePromise } from 'containers/Header/saga';
+import { getHucBalancePromise } from 'containers/Header/saga';
 
 import {
   generateWalletSucces,
@@ -208,7 +208,7 @@ export function* generateAddress() {
 
     // balance checking for new address (will be aborted in offline mode)
     try {
-      const balance = yield call(getEthBalancePromise, newAddress);
+      const balance = yield call(getHucBalancePromise, newAddress);
       yield put(changeBalance(newAddress, 'eth', balance));
     } catch (err) { }  // eslint-disable-line 
   } catch (err) {

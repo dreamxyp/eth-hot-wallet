@@ -12,16 +12,16 @@ export const hdPathString = `m/44'/60'/0'/0`; // eslint-disable-line
 export const timeBetweenCheckbalances = 180 * 1000;
 
 /* Max gas for send transaction (not gas price) */
-export const maxGasForEthSend = 25000;
+export const maxGasForHucSend = 25000;
 /* Max gas for token send transaction (not gas price) */
 export const maxGasForTokenSend = 60000;
 
 
-/* Eth unit constants will be saved as strings to prevent accidental manipulation
+/* Huc unit constants will be saved as strings to prevent accidental manipulation
     usage: convert amount to wei
-    const sendAmount = new BigNumber(amount).times(Ether);
+    const sendAmount = new BigNumber(amount).times(Huc);
 */
-export const Ether = (1.0e18).toString();
+export const Huc = (1.0e18).toString();
 export const Gwei = (1.0e9).toString();
 
 /* offline mode is special case of error */

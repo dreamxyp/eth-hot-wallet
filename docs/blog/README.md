@@ -1,8 +1,8 @@
-# ETH-Hot-Wallet 
+# HUC-Hot-Wallet 
 
-### Ethereum open source wallet / zero client
+### HappyUC open source wallet / zero client
 
-![eth-hot-wallet ethereum wallet preview](https://paullaux.github.io/eth-hot-wallet/docs/images/eth-hot-wallet-ethereum.PNG)
+![eth-hot-wallet happyuc wallet preview](https://paullaux.github.io/eth-hot-wallet/docs/images/eth-hot-wallet-happyuc.PNG)
 
 
 #### Version 0.1 - work in progress
@@ -12,7 +12,7 @@
 ### Core components
 
 - [ ] [LightWallet V3](https://github.com/ConsenSys/eth-lightwallet) 
-- [ ] [Web3.js](https://github.com/ethereum/web3.js/) Ethereum JavaScript API
+- [ ] [Webu.js](https://github.com/happyuc-project/webu.js/) HappyUC JavaScript API
 - [ ] [React-boilerplate](https://github.com/react-boilerplate/react-boilerplate) as a wrapper of React JS, Redux, Saga, Reselect, ImmutableJS and more
 - [ ] [Ant Design](https://github.com/ant-design/ant-design) React js components
 - [ ] Many others, See [package.json](https://github.com/PaulLaux/eth-hot-wallet/blob/master/package.json)
@@ -28,7 +28,7 @@
 
 - [x] Encryption keys generated from seed and stored in browser.
 - [x] Network selector including local and remote rpc 
-- [x] Eth balance auto converted to btc/usd/euro.
+- [x] Huc balance auto converted to btc/usd/euro.
 - [x] Responsive design for mobile support.
 
 
@@ -49,7 +49,7 @@
 
 - Homepage container - contains all the actions related to keystore, including manipulation and usage.
 
-- Header container - contains all the action related to network comunication / web3 api.
+- Header container - contains all the action related to network comunication / webu api.
 
 - Sendto container - contains state and actions related to sendto modal, actual checks and sending is happning in header container.
 

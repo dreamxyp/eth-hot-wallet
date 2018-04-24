@@ -118,16 +118,16 @@ const transformList = (addressMap, tokenDecimalsMap, showTokens) => { //eslint-d
  * return conversion rate from given token
  * @param  {object} exchangeRates available exchange rates
  * @param  {string} from symbol to convert from: 'eth' / 'usd' / ..
- * @param  {string} to the convertion pair to use: ie "eth_usd"
+ * @param  {string} to the convertion pair to use: ie "huc_usd"
  *
  * @return {Array} array as data for table, see example above
  */
 const getConvertRate = (exchangeRates, from, to) => {
-  const fromKey = `eth_${from}`;
-  // convert token to eth by invert(eth_token)
-  const toEthRate = exchangeRates[fromKey].rate.toPower(-1);
+  const fromKey = `huc_${from}`;
+  // convert token to huc by invert(huc_token)
+  const toHucRate = exchangeRates[fromKey].rate.toPower(-1);
   const toTokenRate = exchangeRates[to].rate;
-  return toEthRate && toTokenRate && toEthRate.times(toTokenRate);
+  return toHucRate && toTokenRate && toHucRate.times(toTokenRate);
 };
 
 /**
@@ -135,7 +135,7 @@ const getConvertRate = (exchangeRates, from, to) => {
  * adds nothing if exchange rate not found
  * @param  {object[]} rowList table rows contains balance
  * @param  {object} exchangeRates all available exchange rates
- * @param  {string} convertTo the convertion pair to use: ie "eth_usd"
+ * @param  {string} convertTo the convertion pair to use: ie "huc_usd"
  *
  * @return {Array} array as data for table, see example above
  */
@@ -143,7 +143,7 @@ const addConvertRates = (rowList, exchangeRates, convertTo) =>
   rowList.map((row) => {
     try {
       // const convertToSymbol = convertTo.slice(4).toUpperCase();
-      if (`eth_${row.token}` === convertTo) {
+      if (`huc_${row.token}` === convertTo) {
         row.convert = row.balance; // eslint-disable-line
       } else {
         const convertRate = getConvertRate(exchangeRates, row.token, convertTo);
@@ -240,7 +240,7 @@ function AddressTable(props) {
         width="80px"
         filters={[{
           text: 'Remove empty',
-          value: '0 ETH',
+          value: '0 HUC',
         }]}
         onFilter={(value, record) => record.balance !== value}
       />

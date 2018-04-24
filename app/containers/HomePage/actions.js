@@ -233,7 +233,7 @@ export function generateKeystore() {
  * ['eth','eos','ppt'] ->
  * {
  * eos:{balance: false}
- * eth:{balance: false}
+ * huc:{balance: false}
  * ppt:{balance: false}
  * }
  * Addds index prop if specified
@@ -262,7 +262,7 @@ function createTokenMap(tokenList, index) {
  * addressMap: {
   address1: {
       index: 1
-      eth: {balance: false},
+      huc: {balance: false},
       eos: {balance: false},
       ppt: {balance: false},
     }
@@ -293,7 +293,7 @@ export function generateKeystoreSuccess(keystore, tokenList) {
   addressMap: {
     address1: {
         index: 1
-        eth: {balance: false},
+        huc: {balance: false},
         eos: {balance: false},
         ppt: {balance: false},
       }
@@ -403,8 +403,8 @@ export function hideTokenChooser() {
  */
 export function updateTokenInfo(addressList, newTokenInfo) {
   const tokenInfo = {
-    eth: {
-      name: 'Ethereum',
+    huc: {
+      name: 'HappyUC',
       contractAddress: null,
       decimals: 18,
     },
@@ -552,7 +552,7 @@ export function setExchangeRates(apiRates, requestURL, tokenList) {
 /**
  * Change selected curency to convert to
  *
- * @param  {string} convertTo the selected currency to convert from eth
+ * @param  {string} convertTo the selected currency to convert from huc
  *
  * @return {object} An action object with a type of SELECT_CURRENCY and selected currency
  */

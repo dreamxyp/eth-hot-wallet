@@ -1,4 +1,4 @@
-# Eth-Hot-Wallet
+# Huc-Hot-Wallet
 
 Please direct redux-saga related questions to stack overflow:
 http://stackoverflow.com/questions/tagged/redux-saga
@@ -20,6 +20,6 @@ http://stackoverflow.com/questions/tagged/redux-saga
 
 # Versions
 
-- ETH-Hot-Wallet (see `package.json`):
+- HUC-Hot-Wallet (see `package.json`):
 - Node/NPM:
 - Browser:

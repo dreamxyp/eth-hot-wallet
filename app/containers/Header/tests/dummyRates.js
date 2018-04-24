@@ -10,8 +10,8 @@ const tokensOnly = (element) =>
 const rates =
   [
     {
-      "id": "ethereum",
-      "name": "Ethereum",
+      "id": "happyuc",
+      "name": "HappyUC",
       "symbol": "ETH",
       "rank": "3",
       "price_usd": "896.574",
