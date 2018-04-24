@@ -1,4 +1,4 @@
-## HUC-Hot-Wallet
+## HappyUC Wallet
 
 Thank you for contributing! 
 

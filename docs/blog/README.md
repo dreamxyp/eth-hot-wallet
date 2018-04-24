@@ -1,4 +1,4 @@
-# HUC-Hot-Wallet 
+# HappyUC Wallet 
 
 ### HappyUC open source wallet / zero client
 

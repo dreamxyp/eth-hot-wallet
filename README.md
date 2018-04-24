@@ -1,4 +1,4 @@
-# HUC-Hot-Wallet 
+# HappyUC Wallet 
 
 ## HappyUC wallet with ERC20 support / web wallet 
 

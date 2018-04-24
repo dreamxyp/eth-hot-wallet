@@ -20,6 +20,6 @@ http://stackoverflow.com/questions/tagged/redux-saga
 
 # Versions
 
-- HUC-Hot-Wallet (see `package.json`):
+- HappyUC Wallet (see `package.json`):
 - Node/NPM:
 - Browser:
