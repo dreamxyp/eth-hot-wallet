@@ -32,7 +32,6 @@ import '!file-loader?name=[name].[ext]!./images/android-chrome-96x96.png';
 import '!file-loader?name=[name].[ext]!./images/android-chrome-144x144.png';
 import '!file-loader?name=[name].[ext]!./images/android-chrome-192x192.png';
 import '!file-loader?name=[name].[ext]!./images/android-chrome-256x256.png';
-import '!file-loader?name=[name].[ext]!./images/android-chrome-384x384.png';
 import '!file-loader?name=[name].[ext]!./images/android-chrome-512x512.png';
 import '!file-loader?name=[name].[ext]!./manifest.json';
 import 'file-loader?name=[name].[ext]!./.htaccess';

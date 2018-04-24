@@ -4,6 +4,6 @@
  *
  */
 
-export const TOGGLE_TOKEN = 'eth-Hot-Wallet/TokenChooser/TOGGLE_TOKEN';
+export const TOGGLE_TOKEN = 'wallet-hot/TokenChooser/TOGGLE_TOKEN';
 
-export const CONFIRM_UPDATE_TOKEN_INFO = 'eth-Hot-Wallet/TokenChooser/CONFIRM_UPDATE_TOKEN_INFO';
+export const CONFIRM_UPDATE_TOKEN_INFO = 'wallet-hot/TokenChooser/CONFIRM_UPDATE_TOKEN_INFO';

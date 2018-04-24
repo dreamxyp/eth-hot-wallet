@@ -8,7 +8,7 @@ Following these guidelines helps to communicate that you respect the time of the
 
 ## Using the issue tracker
 
-The [issue tracker](https://github.com/PaulLaux/eth-hot-wallet/issues) is
+The [issue tracker](https://github.com/happyucjs/happyucjs-wallet-hot/issues) is
 the preferred channel for [bug reports](#bugs), [features requests](#features)
 and [submitting pull requests](#pull-requests).
 
@@ -81,11 +81,11 @@ included in the project:
 
    ```bash
    # Clone your fork of the repo into the current directory
-   git clone https://github.com/<your-username>/eth-hot-wallet.git
+   git clone https://github.com/happyucjs/happyucjs-wallet-hot.git
    # Navigate to the newly cloned directory
    cd react-boilerplate
    # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/PaulLaux/eth-hot-wallet.git
+   git remote add upstream https://github.com/happyucjs/happyucjs-wallet-hot.git
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:

@@ -1,8 +1,6 @@
 /**
-*
-* PageFooter
-*
-*/
+ * PageFooter
+ * */
 
 import React from 'react';
 import { github } from 'utils/constants';
@@ -30,20 +28,19 @@ function PageFooter() {
     <Footer>
       <Row>
         <Col sm={12} xs={24}>
-          {'HUC Hot Wallet - '}
+          {'HappyUC Web Wallet - '}
           <a href={github} target="_blank" rel="noopener">
             HappyUC and ERC20 open source wallet (Github)
           </a><br />
-          Created using: huc-lightwallet, React.js, Ant design...
+          Created using: lightwallet, React.js, Ant design...
         </Col>
 
         <Span>
           <Col sm={12} xs={24}>
             Donate for development: (ETH/ERC20)<br />
             0x97325941fafde5a182e6f7e5475a592ac615a3f2
-            </Col>
+          </Col>
         </Span>
-
       </Row>
     </Footer>
   );

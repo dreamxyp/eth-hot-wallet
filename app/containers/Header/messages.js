@@ -8,6 +8,6 @@ import { defineMessages } from 'react-intl';
 export default defineMessages({
   header: {
     id: 'app.containers.Header.header',
-    defaultMessage: 'HUC Hot Wallet',
+    defaultMessage: 'HappyUC Web Wallet',
   },
 });

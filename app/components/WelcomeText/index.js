@@ -23,9 +23,9 @@ font-weight: 400;
 function WelcomeText() {
   return (
     <div>
-      <H1>Welcome to HUC Hot Wallet <br />To begin, create or restore HappyUC wallet<br /></H1>
+      <H1>Welcome to HappyUC Web Wallet <br />To begin, create or restore HappyUC wallet<br /></H1>
       <H2>
-        HUC Hot wallet is a zero client. Connection to HappyUC network is made via infura / local node. <br />
+        HappyUC Web Wallet is a zero client. Connection to HappyUC network is made via infura / local node. <br />
         Keystore is encrypted using the password. When the wallet is locked, you can only view balances. <br />
         All keys are saved inside the browser and never sent.
       </H2>

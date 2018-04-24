@@ -2,7 +2,7 @@
 
 ### HappyUC open source wallet / zero client
 
-![eth-hot-wallet happyuc wallet preview](https://paullaux.github.io/eth-hot-wallet/docs/images/eth-hot-wallet-happyuc.PNG)
+![happyucjs-wallet-hot happyuc wallet preview](https://happyucjs.github.io/happyucjs-wallet-hot/docs/images/happyucjs-wallet-hot.PNG)
 
 
 #### Version 0.1 - work in progress
@@ -15,7 +15,7 @@
 - [ ] [Webu.js](https://github.com/happyuc-project/webu.js/) HappyUC JavaScript API
 - [ ] [React-boilerplate](https://github.com/react-boilerplate/react-boilerplate) as a wrapper of React JS, Redux, Saga, Reselect, ImmutableJS and more
 - [ ] [Ant Design](https://github.com/ant-design/ant-design) React js components
-- [ ] Many others, See [package.json](https://github.com/PaulLaux/eth-hot-wallet/blob/master/package.json)
+- [ ] Many others, See [package.json](https://github.com/happyucjs/happyucjs-wallet-hot/blob/master/package.json)
 
 
 ### API Providers
@@ -56,7 +56,7 @@
 After build, webpack monitor will generates stats about bundle size:
 
 
-![eth-hot-wallet webpack-monitor](https://paullaux.github.io/eth-hot-wallet/docs/images/webpack-monitor.JPG)
+![happyucjs-wallet-hot webpack-monitor](https://happyucjs.github.io/happyucjs-wallet-hot/docs/images/webpack-monitor.JPG)
 
 ## License
 

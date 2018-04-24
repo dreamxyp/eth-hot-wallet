@@ -1,5 +1,5 @@
 {
-  "name": "HUC Hot Wallet",
+  "name": "HappyUC Web Wallet",
   "theme_color": "#ff3333",
   "background_color": "#fafafa",
   "display": "standalone",
@@ -39,11 +39,6 @@
     {
       "src": "/android-chrome-256x256.png",
       "sizes": "256x256",
-      "type": "image/png"
-    },
-    {
-      "src": "/android-chrome-384x384.png",
-      "sizes": "384x384",
       "type": "image/png"
     },
     {

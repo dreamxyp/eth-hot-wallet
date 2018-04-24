@@ -20,7 +20,7 @@ transform: translate(-50%, -50%);
 function LoadingIndicator() {
   return (
     <Div>
-      <Spin size="large" tip="HUC Hot Wallet" />
+      <Spin size="large" tip="HappyUC Web Wallet" />
     </Div>
   );
 }

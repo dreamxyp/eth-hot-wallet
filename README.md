@@ -2,9 +2,9 @@
 
 ## HappyUC wallet with ERC20 support / web wallet 
 
-![eth-hot-wallet happyuc wallet preview](https://paullaux.github.io/eth-hot-wallet/docs/images/eth-hot-wallet-happyuc.PNG)
+![happyucjs-wallet-hot happyuc wallet preview](https://happyucjs.github.io/happyucjs-wallet-hot/docs/images/happyucjs-wallet-hot.PNG)
 
-https://eth-hot-wallet.com
+https://go.happyuc.org:1445/
 
 #### Work in progress
 
@@ -17,7 +17,7 @@ https://eth-hot-wallet.com
 - [ ] [React-boilerplate](https://github.com/react-boilerplate/react-boilerplate) as a wrapper of React JS, Redux, Saga, Reselect, ImmutableJS and more
 - [ ] [Ant Design](https://github.com/ant-design/ant-design) React js components
 - [ ] [Webpack 3](https://github.com/webpack/webpack) - A bundler for javascript and friends.
-- [ ] Many others, See [package.json](https://github.com/PaulLaux/eth-hot-wallet/blob/master/package.json)
+- [ ] Many others, See [package.json](https://github.com/happyucjs/happyucjs-wallet-hot/blob/master/package.json)
 
 
 ### API Providers
@@ -71,12 +71,12 @@ import { erc20Abi } from 'utils/contracts/abi';
 
 - SendTo container - state and actions related to sendTo modal, actual checks and sending is happening in header container.
 
-![eth-hot-wallet send token preview](https://paullaux.github.io/eth-hot-wallet/docs/images/eth-hot-wallet-sendToken.jpg)
+![happyucjs-wallet-hot send token preview](https://happyucjs.github.io/happyucjs-wallet-hot/docs/images/happyucjs-wallet-hot-sendToken.jpg)
 
 
 - TokenChooser container - allows the user to select which erc20 token will be used from a pre-defined list. The list of supported tokens can be found in `app/containers/TokenChooser/token-lists.js`. Each network requires a different list.
 
-![eth-hot-wallet erc20 token chooser preview](https://paullaux.github.io/eth-hot-wallet/docs/images/eth-hot-wallet-erc20-tokenChooser.jpg)
+![happyucjs-wallet-hot erc20 token chooser preview](https://happyucjs.github.io/happyucjs-wallet-hot/docs/images/happyucjs-wallet-hot-erc20-tokenChooser.jpg)
 
 
 
@@ -90,13 +90,13 @@ import { erc20Abi } from 'utils/contracts/abi';
 
 `npm run generate` to create new components / containers using the generator.
 
-For more documentation regarding the react setup see [react-boiledplate docs](https://eth-hot-wallet.com/docs/react-boilerplate/) here or in the official repo.
+For more documentation regarding the react setup see [react-boiledplate docs](https://go.happyuc.org:1445/docs/react-boilerplate/) here or in the official repo.
 
 
 After build, webpack monitor will generate stats about bundle size:
 
 
-![eth-hot-wallet webpack-monitor](https://paullaux.github.io/eth-hot-wallet/docs/images/webpack-monitor.JPG)
+![happyucjs-wallet-hot webpack-monitor](https://happyucjs.github.io/happyucjs-wallet-hot/docs/images/webpack-monitor.JPG)
 
 ## License
 
