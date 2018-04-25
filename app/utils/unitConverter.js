@@ -44,7 +44,7 @@ const ratesMaps =
       huc_eur: { path: { symbol: 'eth', key: 'price_eur' }, name: 'EURO' },
       huc_eos: { // to get huc_eos: huc_usd * usd_eos
         name: 'EOS',
-        path: { symbol: 'eth', key: 'price_usd', isInverse: false },
+        path:  { symbol: 'eth', key: 'price_usd', isInverse: false },
         path2: { symbol: 'eos', key: 'price_usd', isInverse: true },
       },
     },
@@ -63,10 +63,10 @@ const ratesMaps =
 const addPathsForTokens = (ratesMap, tokenList) => {
   const resultMap = ratesMap;
   tokenList.forEach((token) => {
-    if (token === 'eth') return;
+    if (token === 'huc') return;
     resultMap[`huc_${token}`] = {
       name: token,
-      path: { symbol: 'eth', key: 'price_usd', isInverse: false },
+      path: { symbol: 'huc', key: 'price_usd', isInverse: false },
       path2: { symbol: token, key: 'price_usd', isInverse: true },
     };
   });

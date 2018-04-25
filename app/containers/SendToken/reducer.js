@@ -28,7 +28,7 @@ const initialState = fromJS({
   amount: 0,
   gasPrice: 10, // gwei
   locked: false,
-  sendTokenSymbol: 'eth',
+  sendTokenSymbol: 'huc',
 
   comfirmationLoading: false,
   confirmationError: false,

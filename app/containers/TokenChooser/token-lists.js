@@ -1,8 +1,8 @@
 
 export const TokenSelection = {
   Offline: [],
-  'Local RPC': [],
-  'Ropsten Testnet': [
+  'Huc Local': [],
+  'Test Net': [
     {
       symbol: 'symb',
       name: 'Hot Symbol',
@@ -13,7 +13,7 @@ export const TokenSelection = {
     },
     {
       symbol: 'rtt',
-      name: 'Raiden Testnet Token ',
+      name: 'Huc Test Net',
       contractAddress: '0x0a460180ec4fd3d5eb9dca8f84e8ca45b2ad9160',
       decimals: 18,
       description: 'Raiden Network Developer Preview',
@@ -201,12 +201,10 @@ export const TokenSelection = {
 };
 
 export default TokenSelection;
-/*
-{
+/* {
   symbol: '',
   name: '',
   contractAddress: '',
   decimals: 18,
   description: '',
-},
-*/
+}, */

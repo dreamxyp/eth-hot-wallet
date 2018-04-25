@@ -79,6 +79,8 @@ function AddressView(props) {
     </Div>
   );
 
+  // console.log('addressTableProps:',addressTableProps);
+
   if (isComfirmed) {
     addressViewContent = (
       <Div>

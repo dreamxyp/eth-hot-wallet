@@ -37,7 +37,7 @@ function PageFooter() {
 
         <Span>
           <Col sm={12} xs={24}>
-            Donate for development: (ETH/ERC20)<br />
+            Donate for development: (HUC)<br />
             0x97325941fafde5a182e6f7e5475a592ac615a3f2
           </Col>
         </Span>

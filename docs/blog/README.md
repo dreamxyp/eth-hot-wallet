@@ -11,7 +11,7 @@
 
 ### Core components
 
-- [ ] [LightWallet V3](https://github.com/ConsenSys/eth-lightwallet) 
+- [ ] [LightWallet V3](https://github.com/happyucjs/happyucjs-lightwallet) 
 - [ ] [Webu.js](https://github.com/happyuc-project/webu.js/) HappyUC JavaScript API
 - [ ] [React-boilerplate](https://github.com/react-boilerplate/react-boilerplate) as a wrapper of React JS, Redux, Saga, Reselect, ImmutableJS and more
 - [ ] [Ant Design](https://github.com/ant-design/ant-design) React js components

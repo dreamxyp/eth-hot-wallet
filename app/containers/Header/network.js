@@ -1,9 +1,9 @@
 
 const Network = {
-  Offline: { rpc: 'offline', tx_explorer: null },
-  'Local RPC': { rpc: 'http://127.0.0.1:8545', tx_explorer: null },
-  'Ropsten Testnet': { rpc: 'https://ropsten.infura.io/GjiCzFxpQAUkPtDUpKEP', tx_explorer: 'https://ropsten.hucscan.io/tx/' },
-  'Main Net': { rpc: 'https://mainnet.infura.io/GjiCzFxpQAUkPtDUpKEP', tx_explorer: 'https://hucscan.io/tx/' },
+  'Offline'  : { rpc: 'offline', tx_explorer: null },
+  'Huc Local': { rpc: 'http://127.0.0.1:8545', tx_explorer: null },
+  'Huc Test Net' : { rpc: 'https://go2.happyuc.org:1445/test/', tx_explorer: 'https://scan-test.happyuc.org/tx/' },
+  'Huc Main Net' : { rpc: 'https://go2.happyuc.org:1445/main/', tx_explorer: 'https://scan.happyuc.org/tx/' },
 };
 
-module.exports = Network;
+module.exports = Network; 

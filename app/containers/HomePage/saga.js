@@ -209,7 +209,7 @@ export function* generateAddress() {
     // balance checking for new address (will be aborted in offline mode)
     try {
       const balance = yield call(getHucBalancePromise, newAddress);
-      yield put(changeBalance(newAddress, 'eth', balance));
+      yield put(changeBalance(newAddress, 'huc', balance));
     } catch (err) { }  // eslint-disable-line 
   } catch (err) {
     yield call(timer, 1000); // eye candy

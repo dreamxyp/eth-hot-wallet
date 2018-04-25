@@ -60,6 +60,7 @@ import '!file-loader?name=token-icons/[name].[ext]!./images/token-icons/bnt.png'
 import '!file-loader?name=token-icons/[name].[ext]!./images/token-icons/dgd.png';
 import '!file-loader?name=token-icons/[name].[ext]!./images/token-icons/eos.png';
 import '!file-loader?name=token-icons/[name].[ext]!./images/token-icons/huc.png';
+import '!file-loader?name=token-icons/[name].[ext]!./images/token-icons/eth.png';
 import '!file-loader?name=token-icons/[name].[ext]!./images/token-icons/ethos.png';
 import '!file-loader?name=token-icons/[name].[ext]!./images/token-icons/fun.png';
 import '!file-loader?name=token-icons/[name].[ext]!./images/token-icons/gnt.png';

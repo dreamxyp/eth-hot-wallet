@@ -18,7 +18,7 @@ const { Column } = Table;
 // import messages from './messages';
 
 const AddrTable = styled(Table) `
-  max-width: 860px;
+  max-width: 980px;
   margin-left: auto;
   margin-right: auto;
   tbody{
@@ -167,9 +167,13 @@ function AddressTable(props) {
   } = props;
   const currencyDropdownProps = { exchangeRates, onSelectCurrency, convertTo };
 
-
+  // console.log('addressMap:',addressMap);
+  // console.log('tokenDecimalsMap:',tokenDecimalsMap);
   const rowList = transformList(addressMap, tokenDecimalsMap, true);
   const completeRowList = addConvertRates(rowList, exchangeRates, convertTo);
+
+  // console.log('rowList:',rowList);
+  // console.log('completeRowList:',completeRowList);
 
   return (
     <AddrTable

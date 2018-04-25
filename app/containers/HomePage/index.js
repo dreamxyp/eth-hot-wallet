@@ -100,6 +100,7 @@ import {
 
 export class HomePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
   componentDidMount() {
+    console.log('this.props.onLoadWallet();');
     this.props.onLoadWallet();
   }
 
@@ -171,6 +172,8 @@ export class HomePage extends React.PureComponent { // eslint-disable-line react
       loadWalletError,
     } = this.props;
 
+    console.log('this.props:',this.props);
+
     const subHeaderProps = {
       onGenerateWallet,
       onShowRestoreWallet,
@@ -240,8 +243,10 @@ export class HomePage extends React.PureComponent { // eslint-disable-line react
       getExchangeRatesError,
     };
 
-    const sendTokenProps = { isShowSendToken, onHideSendToken };
+    const sendTokenProps    = { isShowSendToken, onHideSendToken };
     const tokenChooserProps = { isShowTokenChooser, onHideTokenChooser };
+
+    console.log('addressViewProps:',addressViewProps);
 
     return (
       <div>

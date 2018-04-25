@@ -122,7 +122,7 @@ const makeSelectAddressMap = (address, options = {}) => createSelector(
       addressMap = addressMap.delete('index');
     }
     if (address && removeHuc) {
-      addressMap = addressMap.delete('eth');
+      addressMap = addressMap.delete('huc');
     }
     const returnS = (returnList ? addressMap.keySeq().toArray() : addressMap.toJS());
     return returnS;

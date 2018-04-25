@@ -224,7 +224,7 @@ export function checkFaucetSuccess() {
     { type: 'bulb', style: { color: '#108ee9' } }
   );
   notification.open({
-    message: 'Ropsten Testnet faucet',
+    message: 'Huc Test Net faucet',
     description: 'Need some coins for testing?',
     duration: 10,
     key,

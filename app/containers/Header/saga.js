@@ -54,6 +54,7 @@ import {
   makeSelectUsedFaucet,
   makeSelectPrevNetworkName,
 } from './selectors';
+
 import {
   loadNetworkSuccess,
   loadNetworkError,
@@ -91,7 +92,7 @@ const erc20Contract = webu.huc.contract(erc20Abi);
 
 /* For development only, if online = false then most api calls will be replaced by constant values
 * affected functions:
-* loadNetwork() will connect to 'Local RPC' but default network name will be showen in gui
+* loadNetwork() will connect to 'Huc Local' but default network name will be showen in gui
 * getRates() will not call rate api
 * checkFaucetApi() will not request
 * askFaucetApi() will get costant Tx as success
@@ -106,10 +107,12 @@ export function* loadNetwork(action) {
     message.warn('debug mode: online = false in Header/saga.js');
   }
   try {
-    const rpcAddress = online ? Network[action.networkName].rpc : Network['Local RPC'].rpc;
+    const rpcAddress = online ? Network[action.networkName].rpc : Network['Huc Local'].rpc;
     if (!rpcAddress) {
       throw new Error(`${action.networkName} network not found`);
     }
+
+    
 
     if (action.networkName === offlineModeString) {
       webu.setProvider(null);
@@ -119,6 +122,9 @@ export function* loadNetwork(action) {
     }
 
     const keystore = yield select(makeSelectKeystore());
+
+    console.log('rpcAddress:',rpcAddress);
+    console.log('keystore:',keystore);
 
     if (keystore) {
       const provider = new SignerProvider(rpcAddress, {
@@ -154,7 +160,7 @@ export function* loadNetwork(action) {
       }
 
       const usedFaucet = yield select(makeSelectUsedFaucet());
-      if (action.networkName === 'Ropsten Testnet' && !usedFaucet) {
+      if (action.networkName === 'Huc Test Net' && !usedFaucet) {
         yield put(checkFaucet());
       }
     } else {
@@ -225,7 +231,7 @@ export function* SendTransaction() {
     };
 
     let tx;
-    if (tokenToSend === 'eth') {
+    if (tokenToSend === 'huc') {
       const sendAmount = new BigNumber(amount).times(Huc);
       const sendParams = { from: fromAddress, to: toAddress, value: sendAmount, gasPrice, gas: maxGasForHucSend };
       function sendTransactionPromise(params) { // eslint-disable-line no-inner-declarations
@@ -329,7 +335,7 @@ export function* checkAllBalances() {
       const address = addressList[j];
       // handle huc
       const balance = yield call(getHucBalancePromise, address);
-      yield put(changeBalance(address, 'eth', balance));
+      yield put(changeBalance(address, 'huc', balance));
 
       // handle tokens
       yield checkTokensBalances(address);
