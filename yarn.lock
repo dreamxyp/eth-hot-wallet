@@ -9917,8 +9917,8 @@ webpack@3.10.0:
     yargs "^8.0.2"
 
 webu@0.20.2:
-  version "1.0.8"
-  resolved "http://registry.npm.taobao.org/webu/download/webu-1.0.8.tgz#34a22a3e50145e36fb43469d9977eeea3e0a7c49"
+  version "1.0.9"
+  resolved "http://registry.npm.taobao.org/webu/download/webu-1.0.9.tgz#18606e147511f1b62003868aefa258c6fbb39fa6"
   dependencies:
     bignumber.js "git+https://github.com/frozeman/bignumber.js-nolookahead.git"
     crypto-js "^3.1.4"
@@ -9927,7 +9927,7 @@ webu@0.20.2:
     xmlhttprequest "*"
 
 "webu@file:../../happyuc-project/webu.js":
-  version "1.0.8"
+  version "1.0.9"
   dependencies:
     bignumber.js "git+https://github.com/frozeman/bignumber.js-nolookahead.git"
     crypto-js "^3.1.4"

@@ -31,20 +31,20 @@ const Output = {
 const ratesMaps =
   {
     'https://api.coinmarketcap.com/v1/ticker/happyuc-project/?convert=EUR': {
-      huc_eth: { path: { const: 1 }, isInverse: false, name: 'ETH' },
-      huc_usd: { path: { symbol: 'eth', key: 'price_usd' }, name: 'USD' },
-      huc_btc: { path: { symbol: 'eth', key: 'price_btc' }, name: 'BTC' },
-      huc_eur: { path: { symbol: 'eth', key: 'price_eur' }, name: 'EURO' },
+      huc_huc: { path: { const: 1 }, isInverse: false, name: 'HUC' },
+      huc_usd: { path: { symbol: 'huc', key: 'price_usd' }, name: 'USD' },
+      huc_btc: { path: { symbol: 'huc', key: 'price_btc' }, name: 'BTC' },
+      huc_eur: { path: { symbol: 'huc', key: 'price_eur' }, name: 'EURO' },
     },
 
     'https://api.coinmarketcap.com/v1/ticker/?convert=EUR': {
-      huc_eth: { path: { const: 1 }, name: 'ETH' },
-      huc_usd: { path: { symbol: 'eth', key: 'price_usd' }, name: 'USD' },
-      huc_btc: { path: { symbol: 'eth', key: 'price_btc' }, name: 'BTC' },
-      huc_eur: { path: { symbol: 'eth', key: 'price_eur' }, name: 'EURO' },
+      huc_huc: { path: { const: 1 }, name: 'HUC' },
+      huc_usd: { path: { symbol: 'huc', key: 'price_usd' }, name: 'USD' },
+      huc_btc: { path: { symbol: 'huc', key: 'price_btc' }, name: 'BTC' },
+      huc_eur: { path: { symbol: 'huc', key: 'price_eur' }, name: 'EURO' },
       huc_eos: { // to get huc_eos: huc_usd * usd_eos
         name: 'EOS',
-        path:  { symbol: 'eth', key: 'price_usd', isInverse: false },
+        path:  { symbol: 'huc', key: 'price_usd', isInverse: false },
         path2: { symbol: 'eos', key: 'price_usd', isInverse: true },
       },
     },

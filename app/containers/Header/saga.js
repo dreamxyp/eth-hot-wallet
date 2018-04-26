@@ -394,7 +394,7 @@ export function* getRates() {
     let dummyRates = [{ // for testin in online = false mode
       id: 'happyuc',
       name: 'HappyUC',
-      symbol: 'ETH',
+      symbol: 'HUC',
       rank: '2',
       price_usd: '295.412',
       price_btc: '0.0684231',

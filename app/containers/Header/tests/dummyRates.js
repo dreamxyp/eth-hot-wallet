@@ -1,7 +1,7 @@
 const tokensOnly = (element) =>
   element.symbol &&
   [
-    'eth',
+    'huc',
     'eos',
     'symb',
     'trx',
@@ -12,7 +12,7 @@ const rates =
     {
       "id": "happyuc",
       "name": "HappyUC",
-      "symbol": "ETH",
+      "symbol": "HUC",
       "rank": "3",
       "price_usd": "896.574",
       "price_btc": "0.0591984",

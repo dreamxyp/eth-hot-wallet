@@ -15,9 +15,9 @@ import { Huc } from 'utils/constants';
 
 function AddressItem(props) {
   const { address, data, onChangeFrom, exchangeRates, convertTo } = props;
-  const hucData = data.get('eth');
+  const hucData = data.get('huc');
 
-  const balance = hucData.get('balance') !== false ? `${ethData.get('balance').div(Huc).toString(10)} HUC ` : 'n/a';
+  const balance = hucData.get('balance') !== false ? `${hucData.get('balance').div(Huc).toString(10)} HUC ` : 'n/a';
 
   const rate = exchangeRates.getIn([convertTo, 'rate']);
   const convertedBalance = (balance !== 'n/a' && rate) ? hucData.get('balance').div(Huc).times(rate).toFixed(2).toString(10) : '';
