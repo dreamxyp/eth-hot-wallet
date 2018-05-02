@@ -28,17 +28,17 @@ export const Gwei = (1.0e9).toString();
 export const offlineModeString = 'Offline';
 /* Default network to connect after wallet creation (see network.js) */
 // export const defaultNetwork = 'Huc Test Net';
-export const defaultNetwork  = 'Huc Local';
+export const defaultNetwork  = 'Huc Main Net';
 
 /* keystore will be saved to local storage under this key */
 export const localStorageKey = 'ks';
 
 // addresses:
-export const website = 'https://go.happyuc.org:1445/';
+export const website = 'https://go.happyuc.org:801/';
 export const github  = 'https://github.com/happyucjs/happyucjs-wallet-hot';
 
 // APIs:
 // export const checkFaucetAddress = 'http://localhost:3000/status';
 // export const askFaucetAddress   = 'http://localhost:3000/ask';
-export const checkFaucetAddress = 'https://go.happyuc.org:1445/dev/status';
-export const askFaucetAddress   = 'https://go.happyuc.org:1445/dev/ask';
+export const checkFaucetAddress = 'https://go.happyuc.org:801/dev/status';
+export const askFaucetAddress   = 'https://go.happyuc.org:801/dev/ask';
