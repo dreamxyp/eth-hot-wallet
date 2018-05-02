@@ -247,7 +247,7 @@
     "store": "^2.0.12",
     "styled-components": "2.0.0",
     "warning": "3.0.0",
-    "webu": "^1.0.10",
+    "webu": "^1.0.9",
     "whatwg-fetch": "2.0.3"
   },
   "devDependencies": {
