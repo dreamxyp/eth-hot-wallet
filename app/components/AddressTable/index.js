@@ -179,7 +179,7 @@ function AddressTable(props) {
     <AddrTable
       dataSource={completeRowList}
       bordered
-      scroll={{ x: 860 }}
+      scroll={{ x: 900 }}
       pagination={false}
       locale={{
         filterTitle: null,
@@ -211,7 +211,7 @@ function AddressTable(props) {
         title="Address"
         dataIndex="address"
         key="address"
-        width="267px"
+        width="300px"
         className="columnCenter"
         colSpan="1"
         rowSpan="3"
@@ -241,7 +241,7 @@ function AddressTable(props) {
         title="Balance"
         dataIndex="balance"
         key="balance"
-        width="80px"
+        width="120px"
         filters={[{
           text: 'Remove empty',
           value: '0 HUC',

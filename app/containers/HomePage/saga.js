@@ -155,7 +155,7 @@ export function* genKeystore() {
     };
 
     const pwDerivedKey = yield call(keyFromPasswordPromise, password);
-    ks.generateNewAddress(pwDerivedKey, 2);
+    ks.generateNewAddress(pwDerivedKey, 1);
 
     const tokenList = yield select(makeSelectTokenInfoList());
 
@@ -210,7 +210,7 @@ export function* generateAddress() {
     try {
       const balance = yield call(getHucBalancePromise, newAddress);
       yield put(changeBalance(newAddress, 'huc', balance));
-    } catch (err) { }  // eslint-disable-line 
+    } catch (err) { }  // eslint-disable-line
   } catch (err) {
     yield call(timer, 1000); // eye candy
     yield put(generateAddressError(err.message));
@@ -307,6 +307,8 @@ export function* saveWalletS() {
       ks: ks.serialize(),
     };
     // console.log(`Saving len: ${JSON.stringify(dump).length}`);
+    console.log('-localStorageKey',localStorageKey);
+    console.log('-dump',dump);
 
     localStore.set(localStorageKey, dump);
 

@@ -28,7 +28,7 @@ function SendFrom({ addressList, from, onChangeFrom, locked }) {
   return (
     <div>
       Source:<br />
-      <Select value={from} style={{ width: 300 }} onChange={onChangeFrom} disabled={locked}>
+      <Select value={from} style={{ width: 390 }} onChange={onChangeFrom} disabled={locked}>
         {selectOptions}
       </Select>
     </div >

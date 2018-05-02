@@ -1,5 +1,5 @@
 import Webu from 'webu';
-import SignerProvider from 'vendor/ethjs-provider-signer/ethjs-provider-signer';
+import SignerProvider from 'vendor/provider-signer/provider-signer';
 import BigNumber from 'bignumber.js';
 import { take, call, put, select, takeLatest, race, fork } from 'redux-saga/effects';
 

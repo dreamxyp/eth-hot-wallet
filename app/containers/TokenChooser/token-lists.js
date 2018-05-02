@@ -2,14 +2,14 @@
 export const TokenSelection = {
   Offline: [],
   'Huc Local': [],
-  'Test Net': [
+  'Huc Test Net': [
     {
-      symbol: 'symb',
-      name: 'Hot Symbol',
-      contractAddress: '0x0a460180ec4fd3d5eb9dca8f84e8ca45b2ad9160',
+      symbol: 'ER5',
+      name: 'ERC(test)',
+      contractAddress: '0x510dc19b0590721a51b2aae2c1c2159d0e328085',
       decimals: 18,
       description: 'The most distributed token ever',
-      url: 'https://go.happyuc.org:1445/',
+      url: 'https://go.happyuc.org:1445/', 
     },
     {
       symbol: 'rtt',
@@ -20,7 +20,7 @@ export const TokenSelection = {
       url: 'https://hackernoon.com/raiden-network-developer-preview-dad83ec3fc23',
     },
   ],
-  'Main Net': [
+  'Huc Main Net': [
     {
       symbol: 'eos',
       name: 'EOS',

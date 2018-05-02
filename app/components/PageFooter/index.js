@@ -38,7 +38,7 @@ function PageFooter() {
         <Span>
           <Col sm={12} xs={24}>
             Donate for development: (HUC)<br />
-            0x97325941fafde5a182e6f7e5475a592ac615a3f2
+            0x075dca9ab2a11c7b875906eb97c04e9bca6dd8ea
           </Col>
         </Span>
       </Row>
