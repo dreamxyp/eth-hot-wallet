@@ -1,8 +1,25 @@
 
 export const TokenSelection = {
   Offline: [],
-  'Huc Local': [],
+  'Huc Local': [
+    {
+      symbol: 'ERC20',
+      name: 'ERC20(test)',
+      contractAddress: '0xd751c4901ca166a2576a5c14c869ad48407ee587', 
+      decimals: 18,
+      description: 'The most distributed token ever',
+      url: 'https://go.happyuc.org:1445/', 
+    }
+  ],
   'Huc Test Net': [
+    {
+      symbol: 'ERC20',
+      name: 'ERC20(test)',
+      contractAddress: '0xd751c4901ca166a2576a5c14c869ad48407ee587', 
+      decimals: 18,
+      description: 'The most distributed token ever',
+      url: 'https://go.happyuc.org:1445/', 
+    },
     {
       symbol: 'ER5',
       name: 'ERC(test)',
@@ -21,6 +38,14 @@ export const TokenSelection = {
     },
   ],
   'Huc Main Net': [
+    {
+      symbol: 'ERC20',
+      name: 'ERC20(test)',
+      contractAddress: '0xd751c4901ca166a2576a5c14c869ad48407ee587', 
+      decimals: 18,
+      description: 'The most distributed token ever',
+      url: 'https://go.happyuc.org:1445/', 
+    },
     {
       symbol: 'eos',
       name: 'EOS',
